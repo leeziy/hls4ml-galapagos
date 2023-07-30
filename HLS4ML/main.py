@@ -17,7 +17,7 @@ for Layer in hls_config['LayerName'].keys():
     try:
         params_num = network.get_layer(Layer).count_params()
         if params_num > 64:
-            reuse_factor = int(params_num / 64)
+            reuse_factor = int(params_num / 64)                                   # 自动设置乘法器服用，将每层乘法器数量上限设为64
             hls_config['LayerName'][Layer]['ReuseFactor'] = reuse_factor
     except ValueError:
         pass
