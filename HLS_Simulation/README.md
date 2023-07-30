@@ -1,7 +1,7 @@
-HLS4ML���ɵ�XX_test.cpp�ļ��У������"tb_input_features.dat"��"tb_output_predictions.dat"�ļ��ĸ�ʽҪ���ǣ�
-��1��ÿ������Ϊһ�У���βʹ�á�\n����Ϊ���������м䲻�ܳ��ָý�������
-��2��һ���У�ÿ������֮��ʹ�ÿո� ����Ϊ�ָ�����
-��3�����ݵĸ�ʽΪ���������С�
+HLS4ML生成的XX_test.cpp文件中，载入的"tb_input_features.dat"与"tb_output_predictions.dat"文件的格式要求是：
+（1）每个输入为一行，行尾使用“\n”作为结束符，中间不能出现该结束符。
+（2）一行中，每个数字之间使用空格“ ”作为分隔符。
+（3）数据的格式为按像素排列。
 
-��ʽʾ�⣺
-pixel_1_R pixel_1_G pixel_1_B pixel_2_R pixel_2_G pixel_2_B ...... pixel_1_R pixel_1_G pixel_1_B \n
+格式示意：
+pixel_1_R pixel_1_G pixel_1_B pixel_2_R pixel_2_G pixel_2_B ...... pixel_N_R pixel_N_G pixel_N_B \n
