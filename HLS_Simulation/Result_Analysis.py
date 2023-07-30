@@ -1,10 +1,5 @@
 import numpy
 import sys
-
-numpy.set_printoptions(threshold=sys.maxsize, linewidth=sys.maxsize)
-
-import numpy
-import sys
 import tensorflow as tf
 
 numpy.set_printoptions(threshold=sys.maxsize, linewidth=sys.maxsize)
