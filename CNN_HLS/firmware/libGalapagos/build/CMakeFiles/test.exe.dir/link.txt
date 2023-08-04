@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/test.exe.dir/test.cpp.o CMakeFiles/test.exe.dir/common.cpp.o  -o test.exe -rdynamic -lboost_thread -lboost_system -lpthread 
