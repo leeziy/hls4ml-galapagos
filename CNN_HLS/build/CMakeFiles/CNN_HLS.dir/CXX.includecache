@@ -813,6 +813,8 @@ stdlib.h
 -
 vector
 -
+random
+-
 
 /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/nnet_utils/nnet_mult.h
 hls_stream.h
