@@ -66,7 +66,16 @@ void hls_stream_2_galapagos_interface_wrapper(
     // packet.user = 0; // not quite sure the usage of this part
 
     int GP_TRANSFER_SIZE = PACKET_DATA_LENGTH / BASE_TYPE_LEN;
-    int STREAM_OUTER_LOOP_SIZE = STREAM_TYPE::size / GP_TRANSFER_SIZE;
+    // int STREAM_OUTER_LOOP_SIZE = STREAM_TYPE::size / GP_TRANSFER_SIZE;
+    
+    int STREAM_OUTER_LOOP_SIZE = (int)ceil((float)STREAM_TYPE::size / GP_TRANSFER_SIZE);
+    
+    // if(debug == true) {
+    //     std::cout<<"GP_TRANSFER_SIZE "<<GP_TRANSFER_SIZE <<std::endl;
+    //     std::cout<<"STREAM_OUTER_LOOP_SIZE "<<STREAM_OUTER_LOOP_SIZE <<std::endl;
+    //     std::cout<<"STREAM_TYPE::size "<<STREAM_TYPE::size <<std::endl;
+    // }
+    
     for (int i = 0; i < elements_in_stream; i++)
     {
 #pragma HLS pipeline II = 1
@@ -86,10 +95,10 @@ void hls_stream_2_galapagos_interface_wrapper(
             
         }
     }
-    if(debug == true)
-    {
-        std::cout<<bridge_output->size()<<std::endl;
-    }
+    // if(debug == true)
+    // {
+    //     std::cout<<bridge_output->size()<<std::endl;
+    // }
 };
 
 
@@ -103,11 +112,17 @@ void galapagos_interface_2_hls_stream_wrapper(
     galapagos_packet packet;
 
     int GP_TRANSFER_SIZE = PACKET_DATA_LENGTH / BASE_TYPE_LEN;
-    int STREAM_OUTER_LOOP_SIZE = STREAM_TYPE::size / GP_TRANSFER_SIZE;
+    int STREAM_OUTER_LOOP_SIZE = (int)ceil((float)STREAM_TYPE::size / GP_TRANSFER_SIZE);
+    
+    // if(debug == true) {
+    //     std::cout<<"GP_TRANSFER_SIZE "<<GP_TRANSFER_SIZE <<std::endl;
+    //     std::cout<<"STREAM_OUTER_LOOP_SIZE "<<STREAM_OUTER_LOOP_SIZE <<std::endl;
+    //     std::cout<<"STREAM_TYPE::size "<<STREAM_TYPE::size <<std::endl;
+    // }
 
     for (int i = 0; i < elements_in_stream; i++)
     {
-        if(debug == true) std::cout<<i <<std::endl;
+        
 #pragma HLS pipeline II = 1
         // while(!bridge_input->empty())
         {
@@ -119,6 +134,8 @@ void galapagos_interface_2_hls_stream_wrapper(
                 for(int k = 0; k < GP_TRANSFER_SIZE; k++)
                 {
                     hls_data[j * GP_TRANSFER_SIZE + k].range() = packet.data.range((k + 1) * BASE_TYPE_LEN - 1, (k)*BASE_TYPE_LEN);
+                    // if(debug == true) std::cout<< "hi" << hls_data[j * GP_TRANSFER_SIZE + k] <<std::endl;
+
                 }
             }
             hls_input.write(hls_data);

@@ -135,10 +135,10 @@ int main(int argc, char **argv) {
         CNN(input_1,layer23_out);
 
         // hls-fpga-machine-learning insert output
-        nnet::print_result<result_t, N_LAYER_21>(layer23_out, std::cout, true);
+        // nnet::print_result<result_t, N_LAYER_21>(layer23_out, std::cout, true);
 
         // hls-fpga-machine-learning insert tb-output
-        nnet::print_result<result_t, N_LAYER_21>(layer23_out, fout);
+        // nnet::print_result<result_t, N_LAYER_21>(layer23_out, fout);
     }
 
     fout.close();

@@ -86,7 +86,8 @@ void prepare_data_wrapper(short id, galapagos_interface * in, galapagos_interfac
     std::cout<<"prepare data"<<std::endl;
     hls::stream<input_t> dataloader; 
     nnet::fill_zero<input_t, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1>(dataloader);
-    hls_stream_2_galapagos_interface_wrapper<input_t>(dataloader, out, N_INPUT_1_1 * N_INPUT_2_1, 0, 1);
+    std::cout<<"dataloader  size "<< dataloader.size()<<std::endl;
+    hls_stream_2_galapagos_interface_wrapper<input_t>(dataloader, out, 1024, 0, 1, true);
     std::cout<<"send data to kernel 1"<<std::endl;
 };
 
@@ -96,7 +97,7 @@ void kernel1_wrapper(short id, galapagos_interface * in, galapagos_interface * o
     hls::stream<input_t> input_1("input_1"); 
     hls::stream<layer9_t> layer9_out("layer9_out");
     
-    galapagos_interface_2_hls_stream_wrapper<input_t>(in, input_1, N_INPUT_1_1 * N_INPUT_2_1);
+    galapagos_interface_2_hls_stream_wrapper<input_t>(in, input_1, 1024, true);
     std::cout<<"read data at kernel 1"<<std::endl;
     Kernel_1(input_1, layer9_out);
     std::cout<<"layer9_out data size "<< layer9_out.size()<<std::endl;
@@ -114,7 +115,7 @@ void kernel2_wrapper(short id, galapagos_interface * in, galapagos_interface * o
     std::cout<<"read data at kernel 2, layer9_out data size "<< layer9_out.size()<<std::endl;
     Kernel_2(layer9_out, layer16_out);
     std::cout<<"layer16_out data size "<< layer16_out.size()<<std::endl;
-    hls_stream_2_galapagos_interface_wrapper<layer16_t>(layer16_out, out, 16, 2, 3, true);
+    hls_stream_2_galapagos_interface_wrapper<layer16_t>(layer16_out, out, 16, 2, 3);
     std::cout<<"send data to kernel 3"<<std::endl;
 
 };
@@ -124,17 +125,18 @@ void kernel3_wrapper(short id, galapagos_interface * in, galapagos_interface * o
 {   
     hls::stream<layer16_t> layer16_out("layer16_out");
     hls::stream<result_t> layer23_out("layer23_out");
-    galapagos_interface_2_hls_stream_wrapper<layer16_t>(in, layer16_out, 16, true);
+    galapagos_interface_2_hls_stream_wrapper<layer16_t>(in, layer16_out, 16);
     std::cout<<"read data at kernel 3"<<std::endl;
     Kernel_3(layer16_out, layer23_out);
-    hls_stream_2_galapagos_interface_wrapper<result_t>(layer23_out, out, 10, 3, 4);
+    std::cout<<"layer23_out data size "<< layer23_out.size()<<std::endl;
+    hls_stream_2_galapagos_interface_wrapper<result_t>(layer23_out, out, 1, 3, 4);
     std::cout<<"send data for final validation"<<std::endl;
 };
 
 void validate_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
 {   
     hls::stream<result_t> layer23_out("layer23_out");
-    galapagos_interface_2_hls_stream_wrapper<result_t>(in, layer23_out, 10);
+    galapagos_interface_2_hls_stream_wrapper<result_t>(in, layer23_out, 1);
     std::cout<<"read data for final validation"<<std::endl;
     nnet::print_result<result_t, N_LAYER_21>(layer23_out, std::cout, true);
 };
