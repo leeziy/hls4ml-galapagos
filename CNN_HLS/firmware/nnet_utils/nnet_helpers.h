@@ -10,6 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <vector>
+#include <random>
 
 namespace nnet {
 
@@ -310,6 +311,28 @@ template <class data_T, size_t SIZE> void fill_zero(hls::stream<data_T> &data) {
             data_pack[j] = 0.;
         }
         data.write(data_pack);
+        // data_pack = data.read();
+    }
+}
+
+
+template <class data_T, size_t SIZE> void fill_rand(hls::stream<data_T> &data) {
+
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    double lower_bound = 0.0;
+    double upper_bound = 1.0;
+    std::uniform_real_distribution<> dis(lower_bound, upper_bound);
+    // double random_number = dis(gen);
+
+    for (int i = 0; i < SIZE / data_T::size; i++) {
+        data_T data_pack;
+        for (int j = 0; j < data_T::size; j++) {
+            data_pack[j] = dis(gen);
+            std::cout<<data_pack[j]<<std::endl;
+        }
+        data.write(data_pack);
+        // data_pack = data.read();
     }
 }
 

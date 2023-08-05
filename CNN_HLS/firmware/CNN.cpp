@@ -43,119 +43,102 @@ void CNN(
     hls::stream<layer9_t> layer9_out("layer9_out");
     hls::stream<layer16_t> layer16_out("layer16_out");
 
+
+    std::vector<std::string> kern_info_table;
+    kern_info_table.push_back(std::string("127.0.0.1")); //kern 0 node address is 10.1.2.155
+    kern_info_table.push_back(std::string("127.0.0.1")); //kern 1 node address is 10.1.2.155
+    kern_info_table.push_back(std::string("127.0.0.1")); //kern 2 node address is 10.1.2.155
+    kern_info_table.push_back(std::string("127.0.0.1")); //kern 3 node address is 10.1.2.155
+    kern_info_table.push_back(std::string("127.0.0.1")); //kern 4 node address is 10.1.2.155
+  
+
+   
+    galapagos::node<ap_uint <PACKET_DATA_LENGTH> > node0(kern_info_table, std::string("127.0.0.1"), std::vector<galapagos::external_driver <ap_uint<PACKET_DATA_LENGTH> > * >());
+
+
+    node0.add_kernel(0, prepare_data_wrapper);
+    node0.add_kernel(1, kernel1_wrapper);
+    node0.add_kernel(2, kernel2_wrapper);
+    node0.add_kernel(3, kernel3_wrapper);
+    node0.add_kernel(4, validate_wrapper);
+
+
+    node0.start();
+    
+    node0.end();
+
+
+    // galapagos_interface tube(std::string("tube"));
+
+
+    // hls_stream_2_galapagos_interface_wrapper<input_t>(input_1, &tube, N_INPUT_1_1 * N_INPUT_2_1, 1);
+    // galapagos_interface_2_hls_stream_wrapper<input_t>(&tube, input_1, N_INPUT_1_1 * N_INPUT_2_1);
+    // Kernel_1(input_1, layer9_out);
+    
+   
+    // Kernel_2(layer9_out, layer16_out);
+
+    // Kernel_3(layer16_out, layer23_out);
+}
+
+void prepare_data_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
+{
+    std::cout<<"prepare data"<<std::endl;
+    hls::stream<input_t> dataloader; 
+    nnet::fill_zero<input_t, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1>(dataloader);
+    hls_stream_2_galapagos_interface_wrapper<input_t>(dataloader, out, N_INPUT_1_1 * N_INPUT_2_1, 0, 1);
+    std::cout<<"send data to kernel 1"<<std::endl;
+};
+
+
+void kernel1_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
+{   
+    hls::stream<input_t> input_1("input_1"); 
+    hls::stream<layer9_t> layer9_out("layer9_out");
+    
+    galapagos_interface_2_hls_stream_wrapper<input_t>(in, input_1, N_INPUT_1_1 * N_INPUT_2_1);
+    std::cout<<"read data at kernel 1"<<std::endl;
     Kernel_1(input_1, layer9_out);
+    std::cout<<"layer9_out data size "<< layer9_out.size()<<std::endl;
+    hls_stream_2_galapagos_interface_wrapper<layer9_t>(layer9_out, out, OUT_HEIGHT_9 * OUT_WIDTH_9, 1, 2);
+    std::cout<<"send data to kernel 2"<<std::endl;
 
+};
+
+void kernel2_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
+{   
+    hls::stream<layer9_t> layer9_out("layer9_out");
+    hls::stream<layer16_t> layer16_out("layer16_out");
+    
+    galapagos_interface_2_hls_stream_wrapper<layer9_t>(in, layer9_out, OUT_HEIGHT_9 * OUT_WIDTH_9);
+    std::cout<<"read data at kernel 2, layer9_out data size "<< layer9_out.size()<<std::endl;
     Kernel_2(layer9_out, layer16_out);
+    std::cout<<"layer16_out data size "<< layer16_out.size()<<std::endl;
+    hls_stream_2_galapagos_interface_wrapper<layer16_t>(layer16_out, out, 16, 2, 3, true);
+    std::cout<<"send data to kernel 3"<<std::endl;
 
+};
+
+
+void kernel3_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
+{   
+    hls::stream<layer16_t> layer16_out("layer16_out");
+    hls::stream<result_t> layer23_out("layer23_out");
+    galapagos_interface_2_hls_stream_wrapper<layer16_t>(in, layer16_out, 16, true);
+    std::cout<<"read data at kernel 3"<<std::endl;
     Kernel_3(layer16_out, layer23_out);
-}
+    hls_stream_2_galapagos_interface_wrapper<result_t>(layer23_out, out, 10, 3, 4);
+    std::cout<<"send data for final validation"<<std::endl;
+};
 
-// template <int packet_num, int width, int index_offset, class D_TYPE>
-// void _hls4ml_galapagos_output_bridge_read_words(
-//     bool reset,
-//     galapagos_packet &gp_out,
-//     hls::stream<D_TYPE> output[width])
-// {
+void validate_wrapper(short id, galapagos_interface * in, galapagos_interface * out)
+{   
+    hls::stream<result_t> layer23_out("layer23_out");
+    galapagos_interface_2_hls_stream_wrapper<result_t>(in, layer23_out, 10);
+    std::cout<<"read data for final validation"<<std::endl;
+    nnet::print_result<result_t, N_LAYER_21>(layer23_out, std::cout, true);
+};
 
-//     for (int j = 0; j < packet_num; j++)
-//     {
-//         // we need to add some assertions on output boundaries
-// #pragma HLS pipeline II = 1
-//         if (!output[j + index_offset].empty())
-//         {
-//             D_TYPE packet;
-//             packet = output[j + index_offset].read();
-//             if (reset)
-//             {
-//                 if (j == 0)
-//                     gp_out.data(0, 0) = packet.id.range();
-//                 gp_out.data.range((j + 1) * 8 + 7, (j + 1) * 8) = packet.data.range();
-//             }
-//             else
-//                 gp_out.data.range((j)*8 + 7, (j)*8) = packet.data.range();
-//         }
-//     }
-// }
-
-// width determins the shape of packets in hls stream
-// size determins the number of packets to be delivered in hls stream
-template <int width, class D_TYPE>
-void hls4ml_galapagos_output_bridge(
-    ap_uint<16> size,
-    hls::stream<D_TYPE> hls_output[width],
-    galapagos_interface *bridge_output,
-    const ap_uint<8> dest)
-{
-
-    galapagos_packet packet;
-    packet.last = 0;
-    packet.dest = dest;
-    packet.user = 0; // not quite sure the usage of this part
-
-    const int D_TYPE_LEN = sizeof(D_TYPE);
-
-    // continue to deliver data from hls to galapagos interface
-    for (int i = 0; i < (size - 1); i++)
-    {
-        for (int j = 0; j < width; j++)
-        {
-#pragma HLS pipeline II = 1
-            D_TYPE data;
-            if (!hls_output[j].empty())
-            {
-                data.range() = hls_output[j].read().range();
-                packet.data.range((j + 1) * D_TYPE_LEN - 1, (j)*D_TYPE_LEN) = data.range();
-            }
-        }
-        packet.last = 0;
-        bridge_output->write(packet);
-    }
-
-    // handle remaining parts, then end the transmission
-    for (int j = 0; j < width; j++)
-    {
-#pragma HLS pipeline II = 1
-        D_TYPE data;
-        if (!hls_output[j].empty())
-        {
-            data.range() = hls_output[j].read().range();
-            packet.data.range((j + 1) * D_TYPE_LEN - 1, (j)*D_TYPE_LEN) = data.range();
-        }
-    }
-
-    packet.last = 1; // informing galapagos interface the end of transmission
-    bridge_output->write(packet);
-}
-
-
-// void hls4ml_galapagos_output_bridge(
-//     ap_uint<32> size,
-//     hls::stream<D_TYPE> hls_output[width],
-//     galapagos_interface *bridge_output,
-//     const ap_uint<8> dest)
-
-// template <int NUM_STREAM, class D_TYPE>
-// void hls_stream_2_galapagos_interface_wrapper(
-//     hls::stream<D_TYPE> in[NUM_STREAM],
-//     galapagos::interface<D_TYPE> * out,
-//     int elements_in_stream
-//     )
-// {
-//     // hls4ml_galapagos_output_bridge <3> ((ap_uint<16>) 1, input, out, 1);
-// }
-
-void galapagos_interface_2_hls_stream(
-    galapagos_interface *in,
-    hls::stream<result_t> &out)
-{
-}
-
-void galapagos_kernel_wrapper(
-    short id, // for routing purpose
-    galapagos_interface *in,
-    galapagos_interface *out)
-{
-}
 
 void Kernel_1(
     hls::stream<input_t> &input_1,

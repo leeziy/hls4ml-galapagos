@@ -7,6 +7,20 @@
 #include <cstddef>
 #include <cstdio>
 
+// #include "packet_size.h"
+// #ifdef CPU
+// #include "galapagos_interface.hpp"
+// #else
+// #include "galapagos_packet.h"
+// #endif
+
+// #include "galapagos_kernel.hpp"
+// #include "galapagos_local_router.hpp"
+// #include "galapagos_external_driver.hpp"
+// #include "galapagos_net_tcp.hpp"
+// #include "galapagos_node.hpp"
+
+
 // hls-fpga-machine-learning insert numbers
 #define N_INPUT_1_1 32
 #define N_INPUT_2_1 32
@@ -61,9 +75,19 @@
 #define N_LAYER_18 128
 #define N_LAYER_21 10
 #define N_LAYER_21 10
+/////////////////////////////////////////////////////
+typedef ap_fixed<16,6> base_t;
+#define BASE_TYPE_LEN  16
+/////////////////////////////////////////////////////
 
 // hls-fpga-machine-learning insert layer-precision
 typedef nnet::array<ap_fixed<16,6>, 3*1> input_t;
+
+/////////////////////////////////////////////////////
+typedef ap_uint<input_t::size * sizeof(base_t) * 8>  input_t_gp;
+/////////////////////////////////////////////////////
+
+
 typedef nnet::array<ap_fixed<16,6>, 3*1> layer24_t;
 typedef ap_fixed<16,6> conv2d_default_t;
 typedef nnet::array<ap_fixed<16,6>, 64*1> layer2_t;

@@ -11,6 +11,9 @@
 #include "firmware/CNN.h"
 #include "firmware/nnet_utils/nnet_helpers.h"
 
+////////////////////////////////////////////////////
+typedef ap_fixed<16,6> base_t;
+////////////////////////////////////////////////////
 // hls-fpga-machine-learning insert bram
 
 #define CHECKPOINT 5000
@@ -69,17 +72,17 @@ int main(int argc, char **argv) {
     // RE(ZJN): note that the stream we use here is only 1 dim, not parallel streams
     // TODO: generate paralell streams
     // MOD: turn hls::stream<input_t> input_1("input_1") to hls::stream<input_t> input_1[1]
-        hls::stream<input_t> input_1[1]; 
-        nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1>(in, input_1[0]);
-        galapagos::interface<input_t> out(std::string("out"));
+        hls::stream<input_t> input_1; 
+        nnet::copy_data<float, input_t, 0, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1>(in, input_1);
+        // galapagos::interface<input_t> out(std::string("out"));
         // hls_stream_2_galapagos_interface_wrapper<1, input_t>(input_1, out, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1);
-        hls_stream_2_galapagos_interface_wrapper<1, input_t>(input_1, &out, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1);
+        // hls_stream_2_galapagos_interface_wrapper<1, input_t>(input_1, &out, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1);
 
 
       hls::stream<result_t> layer23_out("layer23_out");
 
             // hls-fpga-machine-learning insert top-level-function
-            CNN(input_1[0],layer23_out);
+            CNN(input_1,layer23_out);
 
             if (e % CHECKPOINT == 0) {
                 std::cout << "Predictions" << std::endl;
@@ -103,8 +106,29 @@ int main(int argc, char **argv) {
         std::cout << "INFO: Unable to open input/predictions file, using default input." << std::endl;
 
         // hls-fpga-machine-learning insert zero
-    hls::stream<input_t> input_1("input_1");
+    hls::stream<input_t> input_1; 
+
+    // int testcases = 12;
+    // N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1
+    
+    // nnet::fill_rand<input_t, 9>(input_1);
     nnet::fill_zero<input_t, N_INPUT_1_1*N_INPUT_2_1*N_INPUT_3_1>(input_1);
+
+
+    // galapagos::interface<input_t_gp> out(std::string("out"));
+    // // std::cout<<"1"<<std::endl;
+    // hls_stream_2_galapagos_interface_wrapper<input_t, input_t_gp>(input_1, &out, 3, 1);
+    // // std::cout<<"2"<<std::endl;
+    // galapagos_interface_2_hls_stream_wrapper<input_t, input_t_gp>(&out, input_1, 3);
+    // // std::cout<<"3"<<std::endl;
+    
+
+
+    
+
+
+
+
     hls::stream<result_t> layer23_out("layer23_out");
 
         // hls-fpga-machine-learning insert top-level-function
