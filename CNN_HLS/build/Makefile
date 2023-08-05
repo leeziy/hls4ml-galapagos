@@ -177,6 +177,33 @@ firmware/CNN.cpp.s:
 	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.s
 .PHONY : firmware/CNN.cpp.s
 
+firmware/libGalapagos/common.o: firmware/libGalapagos/common.cpp.o
+
+.PHONY : firmware/libGalapagos/common.o
+
+# target to build an object file
+firmware/libGalapagos/common.cpp.o:
+	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.o
+.PHONY : firmware/libGalapagos/common.cpp.o
+
+firmware/libGalapagos/common.i: firmware/libGalapagos/common.cpp.i
+
+.PHONY : firmware/libGalapagos/common.i
+
+# target to preprocess a source file
+firmware/libGalapagos/common.cpp.i:
+	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.i
+.PHONY : firmware/libGalapagos/common.cpp.i
+
+firmware/libGalapagos/common.s: firmware/libGalapagos/common.cpp.s
+
+.PHONY : firmware/libGalapagos/common.s
+
+# target to generate assembly for a file
+firmware/libGalapagos/common.cpp.s:
+	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.s
+.PHONY : firmware/libGalapagos/common.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... firmware/CNN.o"
 	@echo "... firmware/CNN.i"
 	@echo "... firmware/CNN.s"
+	@echo "... firmware/libGalapagos/common.o"
+	@echo "... firmware/libGalapagos/common.i"
+	@echo "... firmware/libGalapagos/common.s"
 .PHONY : help
 
 

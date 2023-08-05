@@ -120,3 +120,6 @@ CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o: ../firmware/weights/w2.h
 CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o: ../firmware/weights/w21.h
 CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o: ../firmware/weights/w6.h
 
+CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.o: ../firmware/libGalapagos/common.cpp
+CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.o: ../firmware/libGalapagos/common.hpp
+

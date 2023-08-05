@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/CNN_test.cpp" "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles/CNN_HLS.dir/CNN_test.cpp.o"
   "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/CNN.cpp" "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o"
+  "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/common.cpp" "/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,6 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../firmware/libGalapagos"
+  "../thirdparty/Catch2/single_include/catch2"
+  "../thirdparty/spdlog/include"
   "../firmware/libGalapagos/xil_include"
   "../firmware/ap_types"
   "../firmware/nnet_utils"

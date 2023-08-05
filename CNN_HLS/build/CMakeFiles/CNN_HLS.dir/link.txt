@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/CNN_HLS.dir/CNN_test.cpp.o CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o  -o CNN_HLS -rdynamic -lboost_thread -lboost_system -lpthread 
+/usr/bin/c++      CMakeFiles/CNN_HLS.dir/CNN_test.cpp.o CMakeFiles/CNN_HLS.dir/firmware/CNN.cpp.o CMakeFiles/CNN_HLS.dir/firmware/libGalapagos/common.cpp.o  -o CNN_HLS -rdynamic -lboost_thread -lboost_system -lpthread 

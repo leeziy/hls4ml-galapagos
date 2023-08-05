@@ -641,6 +641,8 @@ galapagos_net_tcp.hpp
 /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/galapagos_net_tcp.hpp
 galapagos_node.hpp
 /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/galapagos_node.hpp
+nnet_utils/nnet_helpers.h
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/nnet_utils/nnet_helpers.h
 
 /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/defines.h
 ap_fixed.h
@@ -653,6 +655,24 @@ cstddef
 -
 cstdio
 -
+
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/common.cpp
+common.hpp
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/common.hpp
+math.h
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/math.h
+
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/common.hpp
+mutex
+-
+thread
+-
+condition_variable
+-
+spdlog/spdlog.h
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/spdlog/spdlog.h
+spdlog/sinks/basic_file_sink.h
+/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/libGalapagos/spdlog/sinks/basic_file_sink.h
 
 /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/firmware/nnet_utils/nnet_activation.h
 ap_fixed.h

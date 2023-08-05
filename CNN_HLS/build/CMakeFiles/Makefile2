@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build
 CMakeFiles/CNN_HLS.dir/all:
 	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/depend
 	$(MAKE) -f CMakeFiles/CNN_HLS.dir/build.make CMakeFiles/CNN_HLS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles --progress-num=1,2,3 "Built target CNN_HLS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles --progress-num=1,2,3,4 "Built target CNN_HLS"
 .PHONY : CMakeFiles/CNN_HLS.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/CNN_HLS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CNN_HLS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CNN_HLS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjnyly/hls4ml/hls4ml-galapagos/CNN_HLS/build/CMakeFiles 0
 .PHONY : CMakeFiles/CNN_HLS.dir/rule
