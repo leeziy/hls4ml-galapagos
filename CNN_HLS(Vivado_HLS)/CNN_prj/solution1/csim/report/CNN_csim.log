@@ -1,0 +1,18 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../Galapagos_CNN_test.cpp in debug mode
+   Compiling ../../../../firmware/Galapagos_Kernel_1.cpp in debug mode
+   Compiling ../../../../firmware/Galapagos_Kernel_2.cpp in debug mode
+   Compiling ../../../../firmware/Galapagos_Kernel_3.cpp in debug mode
+   Compiling ../../../../firmware/Kernel_1.cpp in debug mode
+   Compiling ../../../../firmware/Kernel_2.cpp in debug mode
+   Compiling ../../../../firmware/Kernel_3.cpp in debug mode
+   Generating csim.exe
+Processing input 0
+STREAM_LENGTH= 1024
+STREAM_SIZE= 3
+FIXED_POINT_WIDTH= 32
+GP_LENGTH= 1536
+GP_SIZE= 2
+ERR: [SIM 100] CSim failed with errors.
+INFO: [SIM 3] *************** CSIM finish ***************

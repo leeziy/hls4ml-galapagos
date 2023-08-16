@@ -1,0 +1,133 @@
+Backend: Vivado
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    conv2d:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 28
+      Strategy: Resource
+      Trace: false
+    conv2d_1:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 577
+      Strategy: Resource
+      Trace: false
+    conv2d_1_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    conv2d_2:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 577
+      Strategy: Resource
+      Trace: false
+    conv2d_2_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    conv2d_3:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 577
+      Strategy: Resource
+      Trace: false
+    conv2d_3_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    conv2d_4:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 577
+      Strategy: Resource
+      Trace: false
+    conv2d_4_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    conv2d_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    dense:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 128
+      Strategy: Resource
+      Trace: false
+    dense_1:
+      Precision: ap_fixed<32,8>
+      ReuseFactor: 5
+      Strategy: Resource
+      Trace: false
+    dense_1_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    dense_linear:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    flatten:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    input_1:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    max_pooling2d:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    max_pooling2d_1:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    max_pooling2d_2:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    max_pooling2d_3:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu_1:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu_2:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu_3:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu_4:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    re_lu_5:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+    softmax:
+      Precision: ap_fixed<32,8>
+      Strategy: Resource
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<32,8>
+    ReuseFactor: 1
+    Strategy: Resource
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+KerasModel: !keras_model 'CNN_HLS/keras_model.h5'
+OutputDir: CNN_HLS
+OutputPredictions: null
+Part: xcvu35p-fsvh2104-1-e
+ProjectName: CNN
+Stamp: AdF3fCf2
