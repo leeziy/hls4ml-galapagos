@@ -1,0 +1,2501 @@
+Processing input 0
+Labels 0
+0 0 0 1 0 0 0 0 0 0 
+Predictions 0
+0 0 0 1 0 0.00390625 0 0 0 0 
+Processing input 1
+Labels 1
+0 0 0 0 0 0 0 0 1 0 
+Predictions 1
+0 0 0 0 0 0 0 0 1 0 
+Processing input 2
+Labels 2
+0 0 0 0 0 0 0 0 1 0 
+Predictions 2
+0 0 0 0 0 0 0 0 1 0 
+Processing input 3
+Labels 3
+1 0 0 0 0 0 0 0 0 0 
+Predictions 3
+1 0 0 0 0 0 0 0 0 0 
+Processing input 4
+Labels 4
+0 0 0 0 0 0 1 0 0 0 
+Predictions 4
+0 0 0 0.666992 0.0332193 0 0.404494 0 0 0 
+Processing input 5
+Labels 5
+0 0 0 0 0 0 1 0 0 0 
+Predictions 5
+0 0 0 0 0 0 1 0 0 0 
+Processing input 6
+Labels 6
+0 1 0 0 0 0 0 0 0 0 
+Predictions 6
+0 0.0039053 0 0.799805 0 0.22885 0 0 0 0.000781059 
+Processing input 7
+Labels 7
+0 0 0 0 0 0 1 0 0 0 
+Predictions 7
+0.00195313 0 0.00683594 0 0 0 1 0 0 0 
+Processing input 8
+Labels 8
+0 0 0 1 0 0 0 0 0 0 
+Predictions 8
+0 0 0 1 0.000976563 0.000976563 0.173828 0 0 0 
+Processing input 9
+Labels 9
+0 1 0 0 0 0 0 0 0 0 
+Predictions 9
+0 1 0 0 0 0 0 0 0 0 
+Processing input 10
+Labels 10
+1 0 0 0 0 0 0 0 0 0 
+Predictions 10
+1 0 0 0 0 0 0 0 0 0 
+Processing input 11
+Labels 11
+0 0 0 0 0 0 0 0 0 1 
+Predictions 11
+0 0 0 0 0 0 0 0 0 1 
+Processing input 12
+Labels 12
+0 0 0 0 0 1 0 0 0 0 
+Predictions 12
+0 0 0 0 0 1 0 0 0 0 
+Processing input 13
+Labels 13
+0 0 0 0 0 0 0 1 0 0 
+Predictions 13
+0 0 0 0 0 0 0 1 0 0 
+Processing input 14
+Labels 14
+0 0 0 0 0 0 0 0 0 1 
+Predictions 14
+0 0 0 0 0 0 0 0 0 1 
+Processing input 15
+Labels 15
+0 0 0 0 0 0 0 0 1 0 
+Predictions 15
+0 0 0 0 0 0 0 0 1 0 
+Processing input 16
+Labels 16
+0 0 0 0 0 1 0 0 0 0 
+Predictions 16
+0 0 0 0.105469 0 1 0 0 0 0 
+Processing input 17
+Labels 17
+0 0 0 0 0 0 0 1 0 0 
+Predictions 17
+0 0 0 0 0 0 0 0 0 1 
+Processing input 18
+Labels 18
+0 0 0 0 0 0 0 0 1 0 
+Predictions 18
+0 0.00195313 0 0 0 0 0 0 1 0 
+Processing input 19
+Labels 19
+0 0 0 0 0 0 1 0 0 0 
+Predictions 19
+0 0 0 0 0 0 1 0 0 0 
+Processing input 20
+Labels 20
+0 0 0 0 0 0 0 1 0 0 
+Predictions 20
+0 0 0 0.0185547 0 0 0 0.0820313 0 1 
+Processing input 21
+Labels 21
+1 0 0 0 0 0 0 0 0 0 
+Predictions 21
+0.666992 0 0.404494 0 0 0 0 0 0 0 
+Processing input 22
+Labels 22
+0 0 0 0 1 0 0 0 0 0 
+Predictions 22
+1 0 0.00195313 0 0.00292969 0 0.00683594 0 0 0 
+Processing input 23
+Labels 23
+0 0 0 0 0 0 0 0 0 1 
+Predictions 23
+0 0 0 0 0 0 0 0 0 1 
+Processing input 24
+Labels 24
+0 0 0 0 0 1 0 0 0 0 
+Predictions 24
+0 0 0 1 0.00195313 0.000976563 0 0 0 0 
+Processing input 25
+Labels 25
+0 0 1 0 0 0 0 0 0 0 
+Predictions 25
+0 0 0.799805 0 0 0 0.294459 0 0 0 
+Processing input 26
+Labels 26
+0 0 0 0 1 0 0 0 0 0 
+Predictions 26
+0 0 1 0 0.00292969 0 0 0 0 0 
+Processing input 27
+Labels 27
+1 0 0 0 0 0 0 0 0 0 
+Predictions 27
+1 0 0.00195313 0 0 0 0 0.105469 0 0 
+Processing input 28
+Labels 28
+0 0 0 0 0 0 0 0 0 1 
+Predictions 28
+0 0 0 0 0 0 0 0 0 1 
+Processing input 29
+Labels 29
+0 0 0 0 0 0 1 0 0 0 
+Predictions 29
+0 0 0 0 0 0 1 0 0 0 
+Processing input 30
+Labels 30
+0 0 0 0 0 0 1 0 0 0 
+Predictions 30
+0 0 0 0.0234375 0 0 1 0 0 0 
+Processing input 31
+Labels 31
+0 0 0 0 0 1 0 0 0 0 
+Predictions 31
+0 0 0 0 0 1 0 0 0 0 
+Processing input 32
+Labels 32
+0 0 0 0 1 0 0 0 0 0 
+Predictions 32
+0 0 1 0 0.000976563 0 0 0 0 0 
+Processing input 33
+Labels 33
+0 0 0 0 0 1 0 0 0 0 
+Predictions 33
+0 0 0 1 0 0 0 0 0 0 
+Processing input 34
+Labels 34
+0 0 0 0 0 0 0 0 0 1 
+Predictions 34
+0 0 0 0 0 0 0 0 0 1 
+Processing input 35
+Labels 35
+0 0 1 0 0 0 0 0 0 0 
+Predictions 35
+0 0.190848 0 0.245563 0 0 0 0 0.666992 0.0260544 
+Processing input 36
+Labels 36
+0 0 0 0 1 0 0 0 0 0 
+Predictions 36
+0 0 0 0 1 0 0 0.000976563 0 0 
+Processing input 37
+Labels 37
+0 1 0 0 0 0 0 0 0 0 
+Predictions 37
+0.00683594 1 0 0 0 0 0 0 0 0 
+Processing input 38
+Labels 38
+0 0 0 0 0 0 0 0 0 1 
+Predictions 38
+0 0 0 0 0 0 0 0 0 1 
+Processing input 39
+Labels 39
+0 0 0 0 0 1 0 0 0 0 
+Predictions 39
+0 0 0 0.000976563 0 1 0 0 0 0 
+Processing input 40
+Labels 40
+0 0 0 0 1 0 0 0 0 0 
+Predictions 40
+0 0 0 0 1 0 0 0 0 0 
+Processing input 41
+Labels 41
+0 0 0 0 0 0 1 0 0 0 
+Predictions 41
+0 0 0 0 0 0 1 0 0 0 
+Processing input 42
+Labels 42
+0 0 0 0 0 1 0 0 0 0 
+Predictions 42
+0 0 0 0 0 0 0 1 0 0 
+Processing input 43
+Labels 43
+0 0 0 0 0 0 1 0 0 0 
+Predictions 43
+0 0 0 0 1 0 0.00195313 0 0 0 
+Processing input 44
+Labels 44
+1 0 0 0 0 0 0 0 0 0 
+Predictions 44
+1 0 0 0 0 0 0 0 0 0 
+Processing input 45
+Labels 45
+0 0 0 0 0 0 0 0 0 1 
+Predictions 45
+0 0 0 0 0 0 0 0 0 1 
+Processing input 46
+Labels 46
+0 0 0 1 0 0 0 0 0 0 
+Predictions 46
+0 0 0 1 0 0.00390625 0 0 0 0 
+Processing input 47
+Labels 47
+0 0 0 0 0 0 0 0 0 1 
+Predictions 47
+0.00683594 0 0 1 0 0 0 0 0.00390625 0 
+Processing input 48
+Labels 48
+0 0 0 0 0 0 0 1 0 0 
+Predictions 48
+0 0 0 0 0 0 0 1 0 0 
+Processing input 49
+Labels 49
+0 0 0 0 0 0 1 0 0 0 
+Predictions 49
+0 0 0.0302734 0.173828 0.0107422 0 1 0 0 0 
+Processing input 50
+Labels 50
+0 0 0 0 0 0 0 0 0 1 
+Predictions 50
+0 0 0 0 0 0 0 0 0 1 
+Processing input 51
+Labels 51
+0 0 0 0 0 0 0 0 1 0 
+Predictions 51
+0 0 0 0 0 0 0.00683594 0 1 0 
+Processing input 52
+Labels 52
+1 0 0 0 0 0 0 0 0 0 
+Predictions 52
+0 0 0 0.00292969 0 1 0.000976563 0 0 0 
+Processing input 53
+Labels 53
+0 0 0 1 0 0 0 0 0 0 
+Predictions 53
+0 0 0 1 0.000976563 0 0 0 0 0 
+Processing input 54
+Labels 54
+0 0 0 0 0 0 0 0 1 0 
+Predictions 54
+0 0 0 0 0 0 0 0 1 0 
+Processing input 55
+Labels 55
+0 0 0 0 0 0 0 0 1 0 
+Predictions 55
+0 0 0 0 0 0 0 0 1 0 
+Processing input 56
+Labels 56
+0 0 0 0 0 0 0 1 0 0 
+Predictions 56
+0 0 0 0 0 0 0 1 0 0 
+Processing input 57
+Labels 57
+0 0 0 0 0 0 0 1 0 0 
+Predictions 57
+0 0 0 0.571289 0 0.0468636 0 0.0022316 0.444646 0 
+Processing input 58
+Labels 58
+0 0 0 0 1 0 0 0 0 0 
+Predictions 58
+0 0 0.222656 0.00292969 0 1 0 0 0 0 
+Processing input 59
+Labels 59
+0 0 0 0 0 0 1 0 0 0 
+Predictions 59
+0 0 0 0.0185547 0 0 1 0 0 0 
+Processing input 60
+Labels 60
+0 0 0 0 0 0 0 1 0 0 
+Predictions 60
+0 0 0 0 0 0 0 1 0 0 
+Processing input 61
+Labels 61
+0 0 0 1 0 0 0 0 0 0 
+Predictions 61
+0 0 0 0.404494 0 0.666992 0 0 0 0 
+Processing input 62
+Labels 62
+0 0 0 0 0 0 1 0 0 0 
+Predictions 62
+0 0 0 0 0 0 1 0 0 0 
+Processing input 63
+Labels 63
+0 0 0 1 0 0 0 0 0 0 
+Predictions 63
+0.00488281 0 0 0 0 0 0 0 0 1 
+Processing input 64
+Labels 64
+0 0 0 0 0 0 1 0 0 0 
+Predictions 64
+0 0 0 0 0 0 1 0 0 0 
+Processing input 65
+Labels 65
+0 0 1 0 0 0 0 0 0 0 
+Predictions 65
+0 0 0.0039053 0.378033 0 0 0.799805 0 0 0 
+Processing input 66
+Labels 66
+0 1 0 0 0 0 0 0 0 0 
+Predictions 66
+0 1 0 0 0 0 0 0 0 0 
+Processing input 67
+Labels 67
+0 0 1 0 0 0 0 0 0 0 
+Predictions 67
+0 0 1 0 0 0 0 0 0 0 
+Processing input 68
+Labels 68
+0 0 0 1 0 0 0 0 0 0 
+Predictions 68
+0 0 0 0.666992 0.404494 0.090539 0 0 0 0 
+Processing input 69
+Labels 69
+0 0 0 0 0 0 0 1 0 0 
+Predictions 69
+0 0.0107422 0 0.0107422 0 0 0 1 0 0.00292969 
+Processing input 70
+Labels 70
+0 0 1 0 0 0 0 0 0 0 
+Predictions 70
+0.0302734 0 1 0 0 0 0 0 0 0 
+Processing input 71
+Labels 71
+0 0 0 0 0 0 1 0 0 0 
+Predictions 71
+0 0 0 0 0 0 1 0 0 0 
+Processing input 72
+Labels 72
+0 0 0 0 0 0 0 0 1 0 
+Predictions 72
+0 0 0 0 0 0 0 0 1 0 
+Processing input 73
+Labels 73
+0 0 0 0 0 0 0 0 1 0 
+Predictions 73
+0 0 0 0 0 0 0 0 1 0 
+Processing input 74
+Labels 74
+1 0 0 0 0 0 0 0 0 0 
+Predictions 74
+1 0 0 0 0 0 0 0 0 0 
+Processing input 75
+Labels 75
+0 0 1 0 0 0 0 0 0 0 
+Predictions 75
+0 0 1 0 0 0 0 0 0 0 
+Processing input 76
+Labels 76
+0 0 0 0 0 0 0 0 0 1 
+Predictions 76
+1 0 0 0 0 0 0 0.0820313 0 0 
+Processing input 77
+Labels 77
+0 0 0 1 0 0 0 0 0 0 
+Predictions 77
+0 0 0 1 0 0.00195313 0 0 0.00390625 0 
+Processing input 78
+Labels 78
+0 0 0 1 0 0 0 0 0 0 
+Predictions 78
+0 0 0 0.799805 0 0.378033 0 0 0 0 
+Processing input 79
+Labels 79
+0 0 0 0 0 0 0 0 1 0 
+Predictions 79
+0 0 0 0 0 0 0 0 1 0 
+Processing input 80
+Labels 80
+0 0 0 0 0 0 0 0 1 0 
+Predictions 80
+0 0 0 0 0 0 0 0 1 0 
+Processing input 81
+Labels 81
+0 1 0 0 0 0 0 0 0 0 
+Predictions 81
+1 0.0498047 0 0 0 0 0 0 0.000976563 0.00292969 
+Processing input 82
+Labels 82
+0 1 0 0 0 0 0 0 0 0 
+Predictions 82
+0 1 0 0 0 0 0 0 0 0 
+Processing input 83
+Labels 83
+0 0 0 0 0 0 0 1 0 0 
+Predictions 83
+0 0 0 0 0 0 0 1 0 0 
+Processing input 84
+Labels 84
+0 0 1 0 0 0 0 0 0 0 
+Predictions 84
+0.000781059 0 0.799805 0.22885 0 0.000781059 0 0 0 0 
+Processing input 85
+Labels 85
+0 0 0 0 0 1 0 0 0 0 
+Predictions 85
+0 0 0 0 0.00455952 0.666992 0 0.404494 0 0.00455952 
+Processing input 86
+Labels 86
+0 0 1 0 0 0 0 0 0 0 
+Predictions 86
+0 0 1 0 0 0 0 0 0 0 
+Processing input 87
+Labels 87
+0 0 0 0 0 0 0 1 0 0 
+Predictions 87
+0 0 0.00683594 1 0.00195313 0.00195313 0 0.00488281 0 0.000976563 
+Processing input 88
+Labels 88
+0 0 0 0 0 0 0 0 1 0 
+Predictions 88
+0 0 0 0 0 0 0 0 1 0 
+Processing input 89
+Labels 89
+0 0 0 0 0 0 0 0 0 1 
+Predictions 89
+0 0 0 0 0 0 0 0 0 1 
+Processing input 90
+Labels 90
+1 0 0 0 0 0 0 0 0 0 
+Predictions 90
+1 0 0 0 0 0 0 0 0 0 
+Processing input 91
+Labels 91
+0 0 0 1 0 0 0 0 0 0 
+Predictions 91
+0 0 0 0.00878906 0 0 1 0 0 0 
+Processing input 92
+Labels 92
+0 0 0 0 0 0 0 0 1 0 
+Predictions 92
+0 0 0 0 0 0 0 0 1 0 
+Processing input 93
+Labels 93
+0 0 0 0 0 0 1 0 0 0 
+Predictions 93
+0 0 0 0 0 0 1 0 0 0 
+Processing input 94
+Labels 94
+0 0 0 0 1 0 0 0 0 0 
+Predictions 94
+0 0 0 0 1 0 0 0.222656 0 0 
+Processing input 95
+Labels 95
+0 0 0 0 0 0 1 0 0 0 
+Predictions 95
+0 0 0 0 0 0 1 0 0 0 
+Processing input 96
+Labels 96
+0 0 0 0 0 0 1 0 0 0 
+Predictions 96
+0 0 0.00683594 0 0 0 1 0 0 0 
+Processing input 97
+Labels 97
+1 0 0 0 0 0 0 0 0 0 
+Predictions 97
+1 0 0.00292969 0 0 0 0 0 0 0 
+Processing input 98
+Labels 98
+1 0 0 0 0 0 0 0 0 0 
+Predictions 98
+1 0 0 0 0 0 0 0 0 0 
+Processing input 99
+Labels 99
+0 0 0 0 0 0 0 1 0 0 
+Predictions 99
+0.0260544 0 0.315258 0.666992 0.0332193 0 0 0.0201921 0 0 
+Processing input 100
+Labels 100
+0 0 0 0 1 0 0 0 0 0 
+Predictions 100
+0 0 0.0146484 0 1 0 0 0 0 0 
+Processing input 101
+Labels 101
+0 0 0 0 0 1 0 0 0 0 
+Predictions 101
+0 0 0.000976563 0.000976563 0 1 0.00195313 0.0107422 0 0 
+Processing input 102
+Labels 102
+0 0 0 0 0 0 1 0 0 0 
+Predictions 102
+0 0 0 0 0 0 1 0 0 0 
+Processing input 103
+Labels 103
+0 0 0 1 0 0 0 0 0 0 
+Predictions 103
+0 0 0 0.0234375 0 0 1 0 0 0 
+Processing input 104
+Labels 104
+0 1 0 0 0 0 0 0 0 0 
+Predictions 104
+0 1 0 0 0 0 0 0 0 0 
+Processing input 105
+Labels 105
+0 1 0 0 0 0 0 0 0 0 
+Predictions 105
+0 1 0 0 0 0 0 0 0 0 
+Processing input 106
+Labels 106
+0 0 0 1 0 0 0 0 0 0 
+Predictions 106
+0 0 1 0.00390625 0 0 0 0 0.000976563 0 
+Processing input 107
+Labels 107
+0 0 0 0 0 0 1 0 0 0 
+Predictions 107
+0 0 0 0 0 0 1 0 0 0 
+Processing input 108
+Labels 108
+0 0 0 0 0 0 0 0 1 0 
+Predictions 108
+0 0 0 0 0 0 0 0 1 0 
+Processing input 109
+Labels 109
+0 0 0 0 0 0 0 1 0 0 
+Predictions 109
+0 0 0 0 0 0 0 1 0 0 
+Processing input 110
+Labels 110
+0 0 0 0 1 0 0 0 0 0 
+Predictions 110
+0 0 0 0.00195313 0 0.00292969 1 0.000976563 0 0 
+Processing input 111
+Labels 111
+1 0 0 0 0 0 0 0 0 0 
+Predictions 111
+0.666992 0 0.404494 0 0 0 0 0 0 0 
+Processing input 112
+Labels 112
+0 0 0 0 0 0 1 0 0 0 
+Predictions 112
+0.000976563 0 1 0 0 0 0 0 0 0 
+Processing input 113
+Labels 113
+0 0 1 0 0 0 0 0 0 0 
+Predictions 113
+0 0 0.571289 0.0022316 0 0.444646 0 0 0 0 
+Processing input 114
+Labels 114
+0 1 0 0 0 0 0 0 0 0 
+Predictions 114
+0 0.0390625 0 0 0 0 0 0 0 1 
+Processing input 115
+Labels 115
+0 0 0 1 0 0 0 0 0 0 
+Predictions 115
+0.00234318 0.00312424 0.22885 0 0.799805 0 0 0.00312424 0 0.00312424 
+Processing input 116
+Labels 116
+1 0 0 0 0 0 0 0 0 0 
+Predictions 116
+1 0 0 0 0 0 0 0 0 0 
+Processing input 117
+Labels 117
+0 0 0 0 1 0 0 0 0 0 
+Predictions 117
+0 0 0 0 0.666992 0.404494 0 0 0 0 
+Processing input 118
+Labels 118
+0 0 1 0 0 0 0 0 0 0 
+Predictions 118
+0 0 1 0.00195313 0 0 0 0.00195313 0 0 
+Processing input 119
+Labels 119
+0 0 0 0 0 0 0 1 0 0 
+Predictions 119
+0 0 0 0 0 0.0185547 0 1 0 0 
+Processing input 120
+Labels 120
+0 0 0 0 0 0 0 0 1 0 
+Predictions 120
+0 0 0 0 0 0 0 0 1 0 
+Processing input 121
+Labels 121
+0 0 0 1 0 0 0 0 0 0 
+Predictions 121
+0 0 0 0.00292969 0 0 0 1 0 0 
+Processing input 122
+Labels 122
+0 1 0 0 0 0 0 0 0 0 
+Predictions 122
+0 1 0 0 0 0 0 0 0 0 
+Processing input 123
+Labels 123
+0 0 1 0 0 0 0 0 0 0 
+Predictions 123
+0 0 1 0.173828 0 0 0 0 0 0 
+Processing input 124
+Labels 124
+0 0 0 0 0 0 0 0 1 0 
+Predictions 124
+0 0 0 0 0 0 0 0 1 0 
+Processing input 125
+Labels 125
+1 0 0 0 0 0 0 0 0 0 
+Predictions 125
+1 0 0 0 0 0 0.0302734 0 0 0.000976563 
+Processing input 126
+Labels 126
+0 0 0 0 0 0 0 0 1 0 
+Predictions 126
+1 0 0 0 0 0 0 0 0.00683594 0.000976563 
+Processing input 127
+Labels 127
+0 0 0 1 0 0 0 0 0 0 
+Predictions 127
+0 0 0 1 0 0 0 0 0 0 
+Processing input 128
+Labels 128
+0 0 0 0 0 1 0 0 0 0 
+Predictions 128
+0 0 0 1 0 0 0.105469 0 0 0 
+Processing input 129
+Labels 129
+0 0 1 0 0 0 0 0 0 0 
+Predictions 129
+0.000976563 0 1 0 0 0 0 0 0 0 
+Processing input 130
+Labels 130
+0 0 0 0 1 0 0 0 0 0 
+Predictions 130
+0 0 1 0 0.0185547 0 0 0 0 0 
+Processing input 131
+Labels 131
+0 1 0 0 0 0 0 0 0 0 
+Predictions 131
+0 1 0 0 0 0 0 0 0 0 
+Processing input 132
+Labels 132
+0 0 0 0 0 0 0 0 1 0 
+Predictions 132
+0 0 0 0 0 0 0 0 0.404494 0.666992 
+Processing input 133
+Labels 133
+0 0 0 0 0 0 0 0 0 1 
+Predictions 133
+0 0 0 0 0 0 0 0 0 1 
+Processing input 134
+Labels 134
+0 1 0 0 0 0 0 0 0 0 
+Predictions 134
+0 1 0 0 0 0 0 0 0 0 
+Processing input 135
+Labels 135
+0 0 1 0 0 0 0 0 0 0 
+Predictions 135
+0.0820313 0 1 0.00878906 0.0146484 0 0 0 0 0 
+Processing input 136
+Labels 136
+0 0 0 0 0 0 0 0 0 1 
+Predictions 136
+0 0 0 0 0 0 0 0 0 1 
+Processing input 137
+Labels 137
+0 0 0 0 0 0 0 1 0 0 
+Predictions 137
+0 0 0 0 0 0 0 1 0 0 
+Processing input 138
+Labels 138
+0 0 1 0 0 0 0 0 0 0 
+Predictions 138
+0 0 0.378033 0 0 0 0.799805 0 0 0 
+Processing input 139
+Labels 139
+0 0 0 0 0 0 0 0 0 1 
+Predictions 139
+1 0 0 0 0 0 0 0 0.105469 0 
+Processing input 140
+Labels 140
+0 0 0 0 0 0 1 0 0 0 
+Predictions 140
+0 0 0 1 0.0634766 0 0.135742 0 0 0 
+Processing input 141
+Labels 141
+0 0 0 0 0 1 0 0 0 0 
+Predictions 141
+0 0 0 0 0 1 0 0 0 0 
+Processing input 142
+Labels 142
+0 0 0 0 0 0 1 0 0 0 
+Predictions 142
+0 0 0 0.0498047 0 0 1 0 0 0 
+Processing input 143
+Labels 143
+0 0 0 1 0 0 0 0 0 0 
+Predictions 143
+0 0 0 1 0 0.000976563 0 0.000976563 0 0 
+Processing input 144
+Labels 144
+0 0 0 0 0 0 0 0 1 0 
+Predictions 144
+0 0 0 0 0 0 0 0 1 0 
+Processing input 145
+Labels 145
+0 0 0 0 0 0 0 1 0 0 
+Predictions 145
+0 0 0 0 0.0107422 0 0 1 0 0 
+Processing input 146
+Labels 146
+0 0 0 0 0 0 1 0 0 0 
+Predictions 146
+0 0 0 0 0 0 1 0 0 0 
+Processing input 147
+Labels 147
+0 0 1 0 0 0 0 0 0 0 
+Predictions 147
+0 0 0 0 0 1 0 0 0 0 
+Processing input 148
+Labels 148
+0 0 0 0 0 1 0 0 0 0 
+Predictions 148
+0 0 0 0.0234375 0 1 0 0 0 0 
+Processing input 149
+Labels 149
+0 0 1 0 0 0 0 0 0 0 
+Predictions 149
+0 0 1 0.0498047 0 0 0 0 0 0 
+Processing input 150
+Labels 150
+0 0 0 0 0 0 0 0 1 0 
+Predictions 150
+0 0 0 0 0 0 0 0 1 0 
+Processing input 151
+Labels 151
+0 0 0 0 0 0 0 0 0 1 
+Predictions 151
+0 0 0 0 0 0 0 0 0 1 
+Processing input 152
+Labels 152
+0 0 0 0 0 0 1 0 0 0 
+Predictions 152
+0 0 0 0 0 0 1 0 0 0 
+Processing input 153
+Labels 153
+1 0 0 0 0 0 0 0 0 0 
+Predictions 153
+1 0 0 0 0 0 0 0 0 0 
+Processing input 154
+Labels 154
+1 0 0 0 0 0 0 0 0 0 
+Predictions 154
+1 0 0 0 0 0 0 0 0 0 
+Processing input 155
+Labels 155
+0 0 0 0 0 1 0 0 0 0 
+Predictions 155
+0 0 0 0 0 1 0 0 0 0 
+Processing input 156
+Labels 156
+0 0 1 0 0 0 0 0 0 0 
+Predictions 156
+0 0 1 0 0 0.000976563 0 0 0 0 
+Processing input 157
+Labels 157
+0 0 0 0 0 0 0 0 0 1 
+Predictions 157
+0 0 0 0 0 0 0 0 0 1 
+Processing input 158
+Labels 158
+0 0 0 0 0 1 0 0 0 0 
+Predictions 158
+0 0 0 0 0 1 0 0 0 0 
+Processing input 159
+Labels 159
+0 0 0 0 1 0 0 0 0 0 
+Predictions 159
+0 0 0 0 1 0 0 0 0 0 
+Processing input 160
+Labels 160
+0 0 1 0 0 0 0 0 0 0 
+Predictions 160
+0.315258 0 0.00065136 0.666992 0 0 0.0260544 0 0 0 
+Processing input 161
+Labels 161
+0 1 0 0 0 0 0 0 0 0 
+Predictions 161
+0 1 0 0 0 0 0 0 0 0 
+Processing input 162
+Labels 162
+0 0 0 0 0 0 1 0 0 0 
+Predictions 162
+0 0 0 1 0 0.173828 0.000976563 0.000976563 0 0 
+Processing input 163
+Labels 163
+0 0 0 0 0 0 1 0 0 0 
+Predictions 163
+0 0 0 0 0 0 1 0 0 0 
+Processing input 164
+Labels 164
+0 0 0 0 0 0 0 0 1 0 
+Predictions 164
+1 0 0 0 0 0 0 0 0.00292969 0 
+Processing input 165
+Labels 165
+0 0 0 0 1 0 0 0 0 0 
+Predictions 165
+0 0 0 0 1 0 0 0.222656 0 0 
+Processing input 166
+Labels 166
+0 0 0 0 0 0 0 0 1 0 
+Predictions 166
+0 0 0 0 0 0 0 0 1 0 
+Processing input 167
+Labels 167
+0 0 0 0 1 0 0 0 0 0 
+Predictions 167
+0 0 0 0 1 0 0 0 0 0 
+Processing input 168
+Labels 168
+0 0 0 0 0 1 0 0 0 0 
+Predictions 168
+0 0 0 0 0 1 0 0.0302734 0 0.00292969 
+Processing input 169
+Labels 169
+1 0 0 0 0 0 0 0 0 0 
+Predictions 169
+1 0.00292969 0.0302734 0 0.0820313 0 0 0.00488281 0 0.000976563 
+Processing input 170
+Labels 170
+0 0 0 0 0 0 0 0 0 1 
+Predictions 170
+0 0 0 0 0 0 0 0 0 1 
+Processing input 171
+Labels 171
+0 0 0 0 0 0 0 0 0 1 
+Predictions 171
+0 0 0 0 0 0 0 0 0 1 
+Processing input 172
+Labels 172
+0 0 0 0 0 0 0 0 0 1 
+Predictions 172
+1 0 0 0 0 0 0 0 0 0.135742 
+Processing input 173
+Labels 173
+0 0 0 0 0 0 0 0 1 0 
+Predictions 173
+0 0 0 0 0 0.000976563 0 0 1 0 
+Processing input 174
+Labels 174
+0 0 0 0 0 0 0 0 0 1 
+Predictions 174
+0 0 0 0 0 0 0 0 0 1 
+Processing input 175
+Labels 175
+0 0 0 0 0 0 0 0 0 1 
+Predictions 175
+0 0 0 0 0 0 0 0 0 1 
+Processing input 176
+Labels 176
+0 0 0 1 0 0 0 0 0 0 
+Predictions 176
+0 0 0 1 0 0 0 0 0 0 
+Processing input 177
+Labels 177
+0 0 0 0 0 0 0 1 0 0 
+Predictions 177
+0 0 0 0 0 0 0 1 0 0 
+Processing input 178
+Labels 178
+0 0 0 0 0 1 0 0 0 0 
+Predictions 178
+0 0 0 1 0 0.0146484 0 0 0 0 
+Processing input 179
+Labels 179
+1 0 0 0 0 0 0 0 0 0 
+Predictions 179
+0.0234375 1 0 0 0 0 0 0 0 0.222656 
+Processing input 180
+Labels 180
+1 0 0 0 0 0 0 0 0 0 
+Predictions 180
+0.00488281 0 0 1 0.00878906 0 0 0 0 0 
+Processing input 181
+Labels 181
+0 0 0 0 0 1 0 0 0 0 
+Predictions 181
+0 0 0 0 0 1 0 0 0 0 
+Processing input 182
+Labels 182
+0 0 1 0 0 0 0 0 0 0 
+Predictions 182
+0 0 1 0 0 0 0 0 0 0 
+Processing input 183
+Labels 183
+0 0 1 0 0 0 0 0 0 0 
+Predictions 183
+0 0 0.0332193 0.404494 0.0201921 0.00065136 0.666992 0 0 0 
+Processing input 184
+Labels 184
+0 0 0 1 0 0 0 0 0 0 
+Predictions 184
+0 0 0 0 0 1 0.000976563 0 0 0 
+Processing input 185
+Labels 185
+0 0 0 0 0 0 0 0 1 0 
+Predictions 185
+0 0 0 0 0 0 0 0 1 0 
+Processing input 186
+Labels 186
+0 0 0 0 0 0 1 0 0 0 
+Predictions 186
+0 0 0 0.0302734 0.00390625 1 0.0634766 0 0 0 
+Processing input 187
+Labels 187
+0 0 0 1 0 0 0 0 0 0 
+Predictions 187
+0.00488281 0 0.0185547 0 0 0 1 0 0 0 
+Processing input 188
+Labels 188
+0 0 0 0 1 0 0 0 0 0 
+Predictions 188
+0 0 0 1 0 0 0 0 0 0 
+Processing input 189
+Labels 189
+1 0 0 0 0 0 0 0 0 0 
+Predictions 189
+0 0.571289 0 0.0016737 0 0 0 0 0.444646 0 
+Processing input 190
+Labels 190
+0 0 0 0 0 1 0 0 0 0 
+Predictions 190
+0 0 0 0 0 1 0 0 0 0 
+Processing input 191
+Labels 191
+0 0 0 0 0 0 0 0 1 0 
+Predictions 191
+0 0 0 0.0302734 0 1 0 0 0.000976563 0 
+Processing input 192
+Labels 192
+1 0 0 0 0 0 0 0 0 0 
+Predictions 192
+1 0 0 0 0 0 0 0 0 0 
+Processing input 193
+Labels 193
+0 1 0 0 0 0 0 0 0 0 
+Predictions 193
+0 1 0 0 0 0 0 0 0 0 
+Processing input 194
+Labels 194
+0 0 0 0 0 0 0 1 0 0 
+Predictions 194
+0 0 0 0 0 0 0 1 0 0 
+Processing input 195
+Labels 195
+0 0 1 0 0 0 0 0 0 0 
+Predictions 195
+0 0 0.799805 0 0 0.22885 0 0 0 0 
+Processing input 196
+Labels 196
+0 0 0 0 0 0 0 0 1 0 
+Predictions 196
+0 0 0 0 0 0 0 0 1 0 
+Processing input 197
+Labels 197
+0 0 0 0 0 0 0 0 1 0 
+Predictions 197
+0 0 0 0.0302734 0 0 0 0 1 0 
+Processing input 198
+Labels 198
+0 0 0 0 0 0 0 1 0 0 
+Predictions 198
+0 0 0 0 0 0 0 1 0 0 
+Processing input 199
+Labels 199
+0 0 0 0 0 0 0 0 1 0 
+Predictions 199
+0 0 0 0.0390625 0 0 0 0 1 0 
+Processing input 200
+Labels 200
+0 0 0 0 0 1 0 0 0 0 
+Predictions 200
+0 0 0 0.0146484 0 1 0 0 0 0 
+Processing input 201
+Labels 201
+0 1 0 0 0 0 0 0 0 0 
+Predictions 201
+0 1 0 0 0 0 0 0 0 0.222656 
+Processing input 202
+Labels 202
+0 0 0 0 0 0 0 0 1 0 
+Predictions 202
+0 0 0 0 0 0 0 0 1 0 
+Processing input 203
+Labels 203
+0 0 0 0 0 0 0 1 0 0 
+Predictions 203
+0 0 0 0 0 0 0 1 0 0 
+Processing input 204
+Labels 204
+0 1 0 0 0 0 0 0 0 0 
+Predictions 204
+0 1 0 0 0 0 0 0 0 0 
+Processing input 205
+Labels 205
+0 0 0 1 0 0 0 0 0 0 
+Predictions 205
+0 0 0 1 0 0 0 0 0 0 
+Processing input 206
+Labels 206
+1 0 0 0 0 0 0 0 0 0 
+Predictions 206
+1 0 0 0 0 0 0 0 0 0 
+Processing input 207
+Labels 207
+0 0 0 0 0 1 0 0 0 0 
+Predictions 207
+0 0 0 0 0 1 0 0 0 0 
+Processing input 208
+Labels 208
+0 0 0 0 0 0 0 1 0 0 
+Predictions 208
+0 0 0 0 0 0 0 1 0 0 
+Processing input 209
+Labels 209
+0 0 0 0 0 0 0 0 0 1 
+Predictions 209
+0 0 0 0 0 0 0 0 0.000976563 1 
+Processing input 210
+Labels 210
+0 0 0 0 0 0 0 1 0 0 
+Predictions 210
+0 0 0 0.000976563 0 0.222656 1 0.000976563 0 0 
+Processing input 211
+Labels 211
+0 0 0 0 1 0 0 0 0 0 
+Predictions 211
+0.00878906 0.0634766 0 0 0 0 0 0 0 1 
+Processing input 212
+Labels 212
+0 0 0 0 0 1 0 0 0 0 
+Predictions 212
+0 0 0.00292969 0.0107422 0 1 0 0 0 0 
+Processing input 213
+Labels 213
+0 0 0 0 0 0 0 0 0 1 
+Predictions 213
+0 0 0 0 0 0 0 0.00683594 0 1 
+Processing input 214
+Labels 214
+0 0 0 0 0 0 0 0 1 0 
+Predictions 214
+0 0 0 0 0 0 0 0 1 0 
+Processing input 215
+Labels 215
+1 0 0 0 0 0 0 0 0 0 
+Predictions 215
+0.378033 0 0 0 0.799805 0 0 0 0 0 
+Processing input 216
+Labels 216
+0 0 0 0 0 0 0 1 0 0 
+Predictions 216
+0 0 0 0 1 0 0 0.000976563 0 0 
+Processing input 217
+Labels 217
+0 0 0 0 0 0 0 0 0 1 
+Predictions 217
+0 0 0 0 0 0 0 0 0 1 
+Processing input 218
+Labels 218
+0 0 0 0 0 0 0 0 1 0 
+Predictions 218
+0 0 0 0.0107422 0 0 0 0 1 0 
+Processing input 219
+Labels 219
+0 0 1 0 0 0 0 0 0 0 
+Predictions 219
+0 0 0.000976563 0 0.0107422 0 0 1 0 0 
+Processing input 220
+Labels 220
+0 0 0 0 0 0 0 1 0 0 
+Predictions 220
+0 0 0 0 0 0 0 1 0 0 
+Processing input 221
+Labels 221
+0 0 0 0 0 0 1 0 0 0 
+Predictions 221
+0 0 0 1 0 0 0.00683594 0 0 0 
+Processing input 222
+Labels 222
+0 0 0 0 0 0 0 0 0 1 
+Predictions 222
+0 0 0 0 0 0 0 0 0 1 
+Processing input 223
+Labels 223
+0 0 0 0 1 0 0 0 0 0 
+Predictions 223
+0 0 0 0 1 0 0 0 0 0 
+Processing input 224
+Labels 224
+0 0 0 1 0 0 0 0 0 0 
+Predictions 224
+0 0 0 1 0.000976563 0 0 0 0 0 
+Processing input 225
+Labels 225
+0 0 0 0 0 0 0 0 0 1 
+Predictions 225
+0 0 0 0 0 0 0 0 0 1 
+Processing input 226
+Labels 226
+0 0 0 0 0 0 1 0 0 0 
+Predictions 226
+0 0.210328 0.0016737 0.571289 0.0016737 0 0.346456 0 0 0 
+Processing input 227
+Labels 227
+0 0 0 0 1 0 0 0 0 0 
+Predictions 227
+0.0634766 0 0.0302734 0 1 0 0 0 0 0 
+Processing input 228
+Labels 228
+0 0 0 0 0 0 0 1 0 0 
+Predictions 228
+0 0 0 1 0 0 0 0.0234375 0 0 
+Processing input 229
+Labels 229
+0 0 0 0 0 0 1 0 0 0 
+Predictions 229
+0 0 1 0.105469 0 0.00488281 0.0185547 0.0107422 0 0 
+Processing input 230
+Labels 230
+0 0 0 0 0 1 0 0 0 0 
+Predictions 230
+0 0 0 0.0390625 0 1 0 0 0 0 
+Processing input 231
+Labels 231
+0 1 0 0 0 0 0 0 0 0 
+Predictions 231
+0 1 0 0 0 0 0 0 0 0 
+Processing input 232
+Labels 232
+0 0 0 0 0 1 0 0 0 0 
+Predictions 232
+0 0 0 0.0187454 0 0.178082 0 0.799805 0 0.0843544 
+Processing input 233
+Labels 233
+0 0 0 0 0 0 0 0 1 0 
+Predictions 233
+0 1 0 0 0 0 0 0 0.0390625 0 
+Processing input 234
+Labels 234
+0 0 0 0 0 0 0 0 1 0 
+Predictions 234
+0 0 0 0 0 0 0 0 1 0 
+Processing input 235
+Labels 235
+1 0 0 0 0 0 0 0 0 0 
+Predictions 235
+1 0 0 0 0 0 0 0 0 0 
+Processing input 236
+Labels 236
+0 0 0 0 1 0 0 0 0 0 
+Predictions 236
+0 0 0 0 1 0 0 0 0 0 
+Processing input 237
+Labels 237
+1 0 0 0 0 0 0 0 0 0 
+Predictions 237
+0.00683594 0.00195313 0 0 0 0 0 1 0 0.0820313 
+Processing input 238
+Labels 238
+0 0 0 0 0 1 0 0 0 0 
+Predictions 238
+0 0 0 0 0 1 0 0 0 0 
+Processing input 239
+Labels 239
+0 0 0 0 0 1 0 0 0 0 
+Predictions 239
+0 0 0 0 0 1 0 0 0 0 
+Processing input 240
+Labels 240
+0 1 0 0 0 0 0 0 0 0 
+Predictions 240
+0 1 0 0 0 0 0 0 0 0 
+Processing input 241
+Labels 241
+0 1 0 0 0 0 0 0 0 0 
+Predictions 241
+0 1 0 0 0 0 0 0 0 0 
+Processing input 242
+Labels 242
+0 0 0 0 0 0 0 0 1 0 
+Predictions 242
+0.294459 0.799805 0.0187454 0 0 0 0 0 0.0039053 0 
+Processing input 243
+Labels 243
+0 0 0 0 0 0 0 0 0 1 
+Predictions 243
+0 0 0 0.00292969 0 0 0 0 0 1 
+Processing input 244
+Labels 244
+1 0 0 0 0 0 0 0 0 0 
+Predictions 244
+1 0 0 0 0 0 0 0 0 0 
+Processing input 245
+Labels 245
+0 0 0 1 0 0 0 0 0 0 
+Predictions 245
+0 0 0 0 0 0 1 0 0 0 
+Processing input 246
+Labels 246
+0 1 0 0 0 0 0 0 0 0 
+Predictions 246
+0 1 0 0 0 0 0 0 0 0 
+Processing input 247
+Labels 247
+0 0 0 0 0 0 0 0 0 1 
+Predictions 247
+0 0 0 0 0 0 0 0 1 0 
+Processing input 248
+Labels 248
+0 0 1 0 0 0 0 0 0 0 
+Predictions 248
+0 0 1 0 0 0 0 0 0 0 
+Processing input 249
+Labels 249
+0 0 1 0 0 0 0 0 0 0 
+Predictions 249
+0.00683594 0 1 0 0 0.00195313 0 0 0 0 
+Processing input 250
+Labels 250
+0 0 0 0 0 1 0 0 0 0 
+Predictions 250
+0 0 0 0 0 1 0 0 0 0 
+Processing input 251
+Labels 251
+0 0 0 1 0 0 0 0 0 0 
+Predictions 251
+0 0 0 1 0 0.00683594 0 0 0 0 
+Processing input 252
+Labels 252
+0 0 0 0 0 0 0 0 0 1 
+Predictions 252
+0 0 0 0 0 0 0 0 0 1 
+Processing input 253
+Labels 253
+0 0 0 0 0 0 0 0 0 1 
+Predictions 253
+0 0 0 0 0 0 0 0 0 1 
+Processing input 254
+Labels 254
+0 0 0 0 1 0 0 0 0 0 
+Predictions 254
+0 0 0.666992 0.00065136 0.00586224 0.404494 0 0 0 0 
+Processing input 255
+Labels 255
+1 0 0 0 0 0 0 0 0 0 
+Predictions 255
+1 0 0 0 0 0 0 0 0 0 
+Processing input 256
+Labels 256
+0 0 0 1 0 0 0 0 0 0 
+Predictions 256
+0 0 0 0.135742 0 0 1 0 0 0 
+Processing input 257
+Labels 257
+1 0 0 0 0 0 0 0 0 0 
+Predictions 257
+1 0 0 0 0 0 0 0 0 0 
+Processing input 258
+Labels 258
+1 0 0 0 0 0 0 0 0 0 
+Predictions 258
+0.00390625 0 0 0 0 0 0 0 1 0 
+Processing input 259
+Labels 259
+0 0 0 0 0 0 0 0 0 1 
+Predictions 259
+0 0.0201921 0 0.666992 0 0 0 0 0 0.404494 
+Processing input 260
+Labels 260
+0 0 0 0 0 0 0 0 1 0 
+Predictions 260
+0 0 0 0 0 0 1 0 0.0107422 0 
+Processing input 261
+Labels 261
+0 1 0 0 0 0 0 0 0 0 
+Predictions 261
+0 1 0 0 0 0 0 0 0 0.0107422 
+Processing input 262
+Labels 262
+0 0 0 0 0 1 0 0 0 0 
+Predictions 262
+0.245563 0.00130272 0 0.115942 0 0.00195408 0 0 0.666992 0.0260544 
+Processing input 263
+Labels 263
+0 0 0 0 0 0 0 1 0 0 
+Predictions 263
+0 0 0 1 0 0.0107422 0 0 0 0 
+Processing input 264
+Labels 264
+1 0 0 0 0 0 0 0 0 0 
+Predictions 264
+1 0 0 0 0 0 0 0 0 0 
+Processing input 265
+Labels 265
+0 0 0 0 0 0 0 0 1 0 
+Predictions 265
+0 0 0 0 0 0 0 0 1 0 
+Processing input 266
+Labels 266
+0 0 1 0 0 0 0 0 0 0 
+Predictions 266
+0 0 1 0 0 0 0 0 0.000976563 0 
+Processing input 267
+Labels 267
+0 0 0 0 1 0 0 0 0 0 
+Predictions 267
+0 0 0 0 1 0 0 0 0 0 
+Processing input 268
+Labels 268
+0 0 0 0 0 0 0 1 0 0 
+Predictions 268
+0 0 0 0 0 0 0 1 0 0 
+Processing input 269
+Labels 269
+1 0 0 0 0 0 0 0 0 0 
+Predictions 269
+1 0 0.0390625 0.00878906 0 0 0 0 0 0 
+Processing input 270
+Labels 270
+0 0 1 0 0 0 0 0 0 0 
+Predictions 270
+0.00195313 0 1 0 0 0.00390625 0.000976563 0 0 0 
+Processing input 271
+Labels 271
+0 0 0 1 0 0 0 0 0 0 
+Predictions 271
+0 0 0 0.0234375 0.105469 1 0 0.0107422 0 0 
+Processing input 272
+Labels 272
+0 0 0 0 0 0 1 0 0 0 
+Predictions 272
+0 0 0 0 0 0 1 0 0 0 
+Processing input 273
+Labels 273
+0 0 0 1 0 0 0 0 0 0 
+Predictions 273
+0 0 0.000976563 1 0 0.0390625 0 0 0 0 
+Processing input 274
+Labels 274
+0 0 0 0 0 0 0 0 1 0 
+Predictions 274
+0 0 0 0 0 0 0 0 1 0 
+Processing input 275
+Labels 275
+0 0 0 0 0 1 0 0 0 0 
+Predictions 275
+0 0 0.799805 0 0 0.294459 0 0 0 0 
+Processing input 276
+Labels 276
+1 0 0 0 0 0 0 0 0 0 
+Predictions 276
+1 0 0 0 0 0 0 0 0 0 
+Processing input 277
+Labels 277
+0 0 0 1 0 0 0 0 0 0 
+Predictions 277
+0 0 0 0 0 1 0 0.000976563 0 0 
+Processing input 278
+Labels 278
+0 0 0 0 1 0 0 0 0 0 
+Predictions 278
+0 0 0 0 1 0.00390625 0 0.00683594 0 0 
+Processing input 279
+Labels 279
+0 0 0 1 0 0 0 0 0 0 
+Predictions 279
+0 0 0 1 0 0 0 0 0 0 
+Processing input 280
+Labels 280
+0 0 0 0 0 0 0 0 0 1 
+Predictions 280
+0 0 0 0 0 0 0 0 0 1 
+Processing input 281
+Labels 281
+1 0 0 0 0 0 0 0 0 0 
+Predictions 281
+0.22885 0 0 0 0 0 0 0 0 0.799805 
+Processing input 282
+Labels 282
+0 0 0 0 0 0 1 0 0 0 
+Predictions 282
+0 0 0 0.000976563 0 0 1 0 0 0 
+Processing input 283
+Labels 283
+0 1 0 0 0 0 0 0 0 0 
+Predictions 283
+0 1 0 0 0 0 0 0 0 0 
+Processing input 284
+Labels 284
+1 0 0 0 0 0 0 0 0 0 
+Predictions 284
+0.00292969 0 0 0 0 0 0 0 0 1 
+Processing input 285
+Labels 285
+0 0 0 0 0 0 0 0 0 1 
+Predictions 285
+0 0 0 0 0 0 0 0 0 1 
+Processing input 286
+Labels 286
+0 1 0 0 0 0 0 0 0 0 
+Predictions 286
+0 1 0 0 0 0 0 0 0 0 
+Processing input 287
+Labels 287
+1 0 0 0 0 0 0 0 0 0 
+Predictions 287
+1 0 0 0 0 0 0 0 0.0302734 0 
+Processing input 288
+Labels 288
+0 0 0 0 0 0 0 1 0 0 
+Predictions 288
+0 0 0 0 0 0 0 1 0 0 
+Processing input 289
+Labels 289
+0 0 0 0 0 0 0 0 0 1 
+Predictions 289
+0 0.0634766 0 0 0 0 0 0 0 1 
+Processing input 290
+Labels 290
+0 1 0 0 0 0 0 0 0 0 
+Predictions 290
+0 1 0 0 0 0 0 0 0 0 
+Processing input 291
+Labels 291
+0 0 1 0 0 0 0 0 0 0 
+Predictions 291
+0 0 1 0 0 0 0 0 0 0 
+Processing input 292
+Labels 292
+0 0 0 0 0 0 1 0 0 0 
+Predictions 292
+0 0 0 0 0 0 1 0 0 0 
+Processing input 293
+Labels 293
+0 0 0 0 0 0 0 0 0 1 
+Predictions 293
+0 0.000976563 0 0 0 0 0 0 0 1 
+Processing input 294
+Labels 294
+0 0 0 1 0 0 0 0 0 0 
+Predictions 294
+0 0 0 1 0 0 0 0 0 0 
+Processing input 295
+Labels 295
+0 0 0 0 1 0 0 0 0 0 
+Predictions 295
+0 0 1 0 0.00292969 0 0 0 0 0 
+Processing input 296
+Labels 296
+0 0 0 0 0 0 1 0 0 0 
+Predictions 296
+0 0 0 0 0 0 1 0 0 0 
+Processing input 297
+Labels 297
+1 0 0 0 0 0 0 0 0 0 
+Predictions 297
+1 0 0 0 0 0 0 0 0 0 
+Processing input 298
+Labels 298
+1 0 0 0 0 0 0 0 0 0 
+Predictions 298
+1 0 0 0 0 0 0 0 0 0 
+Processing input 299
+Labels 299
+0 0 0 0 0 0 1 0 0 0 
+Predictions 299
+0 0 0 0 0 0 1 0 0 0 
+Processing input 300
+Labels 300
+0 0 0 0 0 0 1 0 0 0 
+Predictions 300
+0 0 0 0 0 0 1 0 0 0 
+Processing input 301
+Labels 301
+0 0 0 0 0 0 1 0 0 0 
+Predictions 301
+0 0 0.000976563 0 0 0 1 0 0 0 
+Processing input 302
+Labels 302
+0 0 0 1 0 0 0 0 0 0 
+Predictions 302
+0 0 0 0 0 1 0 0 0 0 
+Processing input 303
+Labels 303
+0 0 1 0 0 0 0 0 0 0 
+Predictions 303
+0 0 1 0 0 0 0 0.000976563 0 0 
+Processing input 304
+Labels 304
+0 0 0 0 0 0 1 0 0 0 
+Predictions 304
+0 0 0 0 0 0 1 0 0 0 
+Processing input 305
+Labels 305
+0 1 0 0 0 0 0 0 0 0 
+Predictions 305
+0 0.404494 0 0 0 0 0 0 0.666992 0 
+Processing input 306
+Labels 306
+0 0 0 0 0 0 0 0 1 0 
+Predictions 306
+0 0 0 0 0 0 0 0 1 0 
+Processing input 307
+Labels 307
+0 0 1 0 0 0 0 0 0 0 
+Predictions 307
+0 0 0.00292969 0 1 0 0 0 0 0 
+Processing input 308
+Labels 308
+0 1 0 0 0 0 0 0 0 0 
+Predictions 308
+0 0.799805 0 0 0 0 0 0 0 0.378033 
+Processing input 309
+Labels 309
+0 0 0 0 0 0 1 0 0 0 
+Predictions 309
+0 0 0 0.0820313 1 0 0 0 0 0 
+Processing input 310
+Labels 310
+0 0 0 0 0 0 0 0 1 0 
+Predictions 310
+0.000976563 1 0 0 0 0 0 0 0 0 
+Processing input 311
+Labels 311
+0 0 0 0 0 0 1 0 0 0 
+Predictions 311
+0 0 0 0 0 0 1 0 0 0 
+Processing input 312
+Labels 312
+0 0 0 0 0 0 0 0 1 0 
+Predictions 312
+0.135742 0 0 0 0 0 0 0 1 0 
+Processing input 313
+Labels 313
+1 0 0 0 0 0 0 0 0 0 
+Predictions 313
+0.799805 0 0.178082 0.00156212 0 0.0242128 0.0187454 0 0 0 
+Processing input 314
+Labels 314
+0 0 0 0 1 0 0 0 0 0 
+Predictions 314
+0 0 0 1 0.105469 0 0 0 0 0 
+Processing input 315
+Labels 315
+1 0 0 0 0 0 0 0 0 0 
+Predictions 315
+1 0 0 0 0 0 0 0 0 0 
+Processing input 316
+Labels 316
+0 0 0 0 0 0 0 1 0 0 
+Predictions 316
+0 0 0 0 0 0 0 1 0 0 
+Processing input 317
+Labels 317
+0 0 0 0 0 0 0 1 0 0 
+Predictions 317
+0 0 0 0 0 0 0 1 0 0 
+Processing input 318
+Labels 318
+0 0 0 0 0 1 0 0 0 0 
+Predictions 318
+0 0 0 0 0 1 0 0 0 0 
+Processing input 319
+Labels 319
+0 0 0 0 0 1 0 0 0 0 
+Predictions 319
+0 0 0 0.000976563 0 1 0 0 0 0 
+Processing input 320
+Labels 320
+0 0 0 1 0 0 0 0 0 0 
+Predictions 320
+0 0 0 1 0 0.000976563 0 0 0 0 
+Processing input 321
+Labels 321
+0 0 0 0 0 1 0 0 0 0 
+Predictions 321
+0 0 0 0 0 1 0 0 0 0 
+Processing input 322
+Labels 322
+0 0 1 0 0 0 0 0 0 0 
+Predictions 322
+0 0 1 0 0 0 0 0 0 0 
+Processing input 323
+Labels 323
+0 0 0 1 0 0 0 0 0 0 
+Predictions 323
+0 0 0 0.000976563 0 0.105469 1 0 0 0 
+Processing input 324
+Labels 324
+0 0 0 0 1 0 0 0 0 0 
+Predictions 324
+0 0 0 0 0.000976563 1 0 0.135742 0 0 
+Processing input 325
+Labels 325
+0 1 0 0 0 0 0 0 0 0 
+Predictions 325
+0 0.0146484 1 0 0 0 0 0 0 0 
+Processing input 326
+Labels 326
+0 0 0 0 0 0 0 1 0 0 
+Predictions 326
+0 0 0 0 0.000976563 0 0 1 0 0 
+Processing input 327
+Labels 327
+0 0 0 0 0 1 0 0 0 0 
+Predictions 327
+0 0 0 0 0 1 0 0 0 0 
+Processing input 328
+Labels 328
+0 0 0 0 1 0 0 0 0 0 
+Predictions 328
+0 0 0 1 0.0146484 0.000976563 0 0 0 0 
+Processing input 329
+Labels 329
+0 0 0 0 0 0 1 0 0 0 
+Predictions 329
+0 0 0 0 0 0 1 0 0 0 
+Processing input 330
+Labels 330
+0 1 0 0 0 0 0 0 0 0 
+Predictions 330
+0 0.0390625 0 0 0 0 0 0 0 1 
+Processing input 331
+Labels 331
+0 0 0 0 0 0 0 0 0 1 
+Predictions 331
+0 0 0 0 0 0 0 0 0 1 
+Processing input 332
+Labels 332
+0 0 0 1 0 0 0 0 0 0 
+Predictions 332
+0 0 0 0.0820313 0 1 0 0 0 0 
+Processing input 333
+Labels 333
+0 0 0 0 0 0 1 0 0 0 
+Predictions 333
+0 0 0 0 0 0 1 0 0 0 
+Processing input 334
+Labels 334
+0 0 0 0 0 0 1 0 0 0 
+Predictions 334
+0 0 0 0 0 0 1 0 0 0 
+Processing input 335
+Labels 335
+0 0 0 0 0 0 0 0 0 1 
+Predictions 335
+0 0.000976563 0 0 0 0 0 0 0 1 
+Processing input 336
+Labels 336
+0 0 0 1 0 0 0 0 0 0 
+Predictions 336
+0 0 0 1 0 0 0 0 0 0 
+Processing input 337
+Labels 337
+0 0 0 0 0 0 0 0 1 0 
+Predictions 337
+0.00234318 0 0.00156212 0 0 0 0 0 0.22885 0.799805 
+Processing input 338
+Labels 338
+1 0 0 0 0 0 0 0 0 0 
+Predictions 338
+1 0 0 0 0 0 0 0 0 0 
+Processing input 339
+Labels 339
+0 0 0 0 0 0 0 1 0 0 
+Predictions 339
+0 0 0 0 0 0 0 1 0 0 
+Processing input 340
+Labels 340
+0 0 1 0 0 0 0 0 0 0 
+Predictions 340
+0 0 1 0.00390625 0.0634766 0 0 0 0 0 
+Processing input 341
+Labels 341
+0 0 0 0 0 0 1 0 0 0 
+Predictions 341
+0 0 0 0 0 0 1 0 0 0 
+Processing input 342
+Labels 342
+0 0 1 0 0 0 0 0 0 0 
+Predictions 342
+0.0146484 0 1 0 0 0 0 0 0 0 
+Processing input 343
+Labels 343
+0 0 0 0 0 1 0 0 0 0 
+Predictions 343
+0 0 0 0 0 0 0 1 0 0 
+Processing input 344
+Labels 344
+0 0 0 0 0 0 0 0 1 0 
+Predictions 344
+0 0 0 0 0 0 0 0 1 0 
+Processing input 345
+Labels 345
+0 0 0 0 0 1 0 0 0 0 
+Predictions 345
+0 0 0 0 0 1 0 0 0 0 
+Processing input 346
+Labels 346
+0 0 0 0 1 0 0 0 0 0 
+Predictions 346
+0 0 0 0 0 0 0 1 0 0 
+Processing input 347
+Labels 347
+0 0 0 0 0 0 1 0 0 0 
+Predictions 347
+0 0 0 0 0 0 1 0 0 0 
+Processing input 348
+Labels 348
+0 0 0 0 0 0 0 0 1 0 
+Predictions 348
+0 0 0 0 0 0 0 0 1 0 
+Processing input 349
+Labels 349
+0 0 0 0 0 0 0 0 0 1 
+Predictions 349
+0 0 0 0 0 0 0 0 0 1 
+Processing input 350
+Labels 350
+0 0 0 0 0 0 0 0 0 1 
+Predictions 350
+0 0 0 0 0 0 0 0 0 1 
+Processing input 351
+Labels 351
+0 1 0 0 0 0 0 0 0 0 
+Predictions 351
+0 1 0 0 0 0 0 0 0 0 
+Processing input 352
+Labels 352
+1 0 0 0 0 0 0 0 0 0 
+Predictions 352
+0 0.00878906 0 0 0 0 0 0 1 0 
+Processing input 353
+Labels 353
+0 0 1 0 0 0 0 0 0 0 
+Predictions 353
+0 0 1 0 0 0 0 0 0 0 
+Processing input 354
+Labels 354
+0 0 1 0 0 0 0 0 0 0 
+Predictions 354
+0 0 0.799805 0 0 0 0.22885 0 0 0 
+Processing input 355
+Labels 355
+0 0 0 0 0 0 0 1 0 0 
+Predictions 355
+0 0 0 0 0.00195313 0 0 1 0 0 
+Processing input 356
+Labels 356
+0 0 0 1 0 0 0 0 0 0 
+Predictions 356
+0 0 0 0.00292969 0 1 0 0 0 0 
+Processing input 357
+Labels 357
+0 0 1 0 0 0 0 0 0 0 
+Predictions 357
+0 0 1 0.00390625 0.0498047 0 0 0.00195313 0 0 
+Processing input 358
+Labels 358
+0 0 0 0 0 0 0 0 1 0 
+Predictions 358
+0 0 0 0 0 0 0 0 1 0 
+Processing input 359
+Labels 359
+1 0 0 0 0 0 0 0 0 0 
+Predictions 359
+1 0 0 0 0 0 0 0 0 0 
+Processing input 360
+Labels 360
+0 0 0 0 0 0 0 0 0 1 
+Predictions 360
+0 0 0 0 0 0 0 0 0 1 
+Processing input 361
+Labels 361
+0 0 0 0 0 1 0 0 0 0 
+Predictions 361
+0 0 0 0 0 1 0 0 0 0 
+Processing input 362
+Labels 362
+0 0 0 0 0 0 0 0 1 0 
+Predictions 362
+0 0 0 0 0 0 0 0 1 0 
+Processing input 363
+Labels 363
+0 1 0 0 0 0 0 0 0 0 
+Predictions 363
+0 1 0 0 0 0 0 0 0 0 
+Processing input 364
+Labels 364
+0 0 0 0 0 0 0 0 0 1 
+Predictions 364
+0 0 0 0 0 0 0 0 0 1 
+Processing input 365
+Labels 365
+0 0 0 0 1 0 0 0 0 0 
+Predictions 365
+0 0 0 0 1 0 0 0 0 0 
+Processing input 366
+Labels 366
+0 1 0 0 0 0 0 0 0 0 
+Predictions 366
+0 0.00292969 0 0 1 0 0 0 0 0 
+Processing input 367
+Labels 367
+0 0 0 1 0 0 0 0 0 0 
+Predictions 367
+0 1 0 0.105469 0 0 0 0 0 0 
+Processing input 368
+Labels 368
+0 0 0 0 0 0 0 0 1 0 
+Predictions 368
+1 0 0 0 0 0 0 0 0 0 
+Processing input 369
+Labels 369
+0 1 0 0 0 0 0 0 0 0 
+Predictions 369
+0 1 0 0 0 0 0 0 0 0 
+Processing input 370
+Labels 370
+0 0 0 0 1 0 0 0 0 0 
+Predictions 370
+0 0 0.00878906 0 1 0 0 0.000976563 0 0 
+Processing input 371
+Labels 371
+0 0 0 0 0 0 0 1 0 0 
+Predictions 371
+0 0 0 0 0 0 0 1 0 0 
+Processing input 372
+Labels 372
+0 0 0 0 0 0 0 0 0 1 
+Predictions 372
+0 0 0 0 0 0 0 0 0 1 
+Processing input 373
+Labels 373
+0 0 0 0 1 0 0 0 0 0 
+Predictions 373
+0.184082 0 0 0.5 0.38916 0.000488281 0 0 0 0 
+Processing input 374
+Labels 374
+0 0 1 0 0 0 0 0 0 0 
+Predictions 374
+0 0 1 0 0 0 0 0 0 0 
+Processing input 375
+Labels 375
+0 0 0 0 0 0 0 1 0 0 
+Predictions 375
+0 0 0 0 0.000976563 0 0 1 0 0 
+Processing input 376
+Labels 376
+1 0 0 0 0 0 0 0 0 0 
+Predictions 376
+0 0 1 0 0 0 0 0 0 0.222656 
+Processing input 377
+Labels 377
+0 0 0 0 0 0 0 1 0 0 
+Predictions 377
+0 0 0 0 0 1 0 0.0185547 0 0 
+Processing input 378
+Labels 378
+1 0 0 0 0 0 0 0 0 0 
+Predictions 378
+0 0 0 0 0 0 0.00878906 0 1 0 
+Processing input 379
+Labels 379
+0 0 0 0 0 0 1 0 0 0 
+Predictions 379
+0 0 0 0 0 0 1 0 0 0 
+Processing input 380
+Labels 380
+0 0 0 0 0 0 1 0 0 0 
+Predictions 380
+0 0 0 0 0 0 1 0 0 0 
+Processing input 381
+Labels 381
+0 0 0 0 0 0 0 0 0 1 
+Predictions 381
+0 0 0 0 0 0 0 0 0 1 
+Processing input 382
+Labels 382
+1 0 0 0 0 0 0 0 0 0 
+Predictions 382
+0.173828 0 1 0 0 0 0 0 0 0 
+Processing input 383
+Labels 383
+0 0 0 0 0 0 0 0 0 1 
+Predictions 383
+1 0 0 0 0 0 0 0 0 0 
+Processing input 384
+Labels 384
+0 0 1 0 0 0 0 0 0 0 
+Predictions 384
+0 0 0 0 0 1 0 0 0 0 
+Processing input 385
+Labels 385
+0 0 0 0 0 0 0 0 1 0 
+Predictions 385
+1 0 0 0 0 0 0 0 0.135742 0 
+Processing input 386
+Labels 386
+0 0 0 0 0 0 0 1 0 0 
+Predictions 386
+0 0 0 0 0 0 0 1 0 0 
+Processing input 387
+Labels 387
+0 0 1 0 0 0 0 0 0 0 
+Predictions 387
+0 0 0.22885 0 0.799805 0 0 0.0843544 0 0 
+Processing input 388
+Labels 388
+0 0 1 0 0 0 0 0 0 0 
+Predictions 388
+0 0 1 0 0 0.0107422 0 0 0 0 
+Processing input 389
+Labels 389
+0 0 0 0 0 1 0 0 0 0 
+Predictions 389
+0 0 0 0 0 1 0 0.00195313 0 0 
+Processing input 390
+Labels 390
+0 1 0 0 0 0 0 0 0 0 
+Predictions 390
+0 1 0 0 0 0 0 0 0 0.00195313 
+Processing input 391
+Labels 391
+0 0 1 0 0 0 0 0 0 0 
+Predictions 391
+0.0302734 0 0.00292969 0 0 0 1 0 0 0 
+Processing input 392
+Labels 392
+0 0 0 0 0 0 1 0 0 0 
+Predictions 392
+0 0 0 0 0 0 1 0 0 0 
+Processing input 393
+Labels 393
+0 0 1 0 0 0 0 0 0 0 
+Predictions 393
+0 0 1 0 0 0 0 0 0 0 
+Processing input 394
+Labels 394
+0 0 0 0 0 0 0 0 0 1 
+Predictions 394
+0 0 0 1 0 0 0 0 0 0 
+Processing input 395
+Labels 395
+0 0 0 0 0 0 1 0 0 0 
+Predictions 395
+0 0 0 0 0 0 1 0 0 0 
+Processing input 396
+Labels 396
+0 0 1 0 0 0 0 0 0 0 
+Predictions 396
+0 0 1 0 0 0 0 0 0 0 
+Processing input 397
+Labels 397
+0 0 0 1 0 0 0 0 0 0 
+Predictions 397
+0.222656 0.000976563 1 0 0 0 0 0 0 0 
+Processing input 398
+Labels 398
+1 0 0 0 0 0 0 0 0 0 
+Predictions 398
+1 0 0 0 0 0 0 0 0 0.00390625 
+Processing input 399
+Labels 399
+0 0 0 1 0 0 0 0 0 0 
+Predictions 399
+0 0.00390625 0 0 0 0 0 0 0 1 
+Processing input 400
+Labels 400
+0 0 0 0 0 0 0 0 0 1 
+Predictions 400
+0 0 0 0 0 0 0 0 0 1 
+Processing input 401
+Labels 401
+0 0 0 0 0 0 0 0 1 0 
+Predictions 401
+0 1 0 0 0 0 0 0 0 0 
+Processing input 402
+Labels 402
+0 0 0 0 0 0 0 1 0 0 
+Predictions 402
+0 0 0 0 0 0 0 1 0 0 
+Processing input 403
+Labels 403
+0 0 0 0 0 0 0 0 1 0 
+Predictions 403
+0.294459 0 0 0 0 0 0 0 0.799805 0 
+Processing input 404
+Labels 404
+0 0 0 0 0 0 0 0 1 0 
+Predictions 404
+0 0 0 0 0 0 0 0 1 0 
+Processing input 405
+Labels 405
+0 0 0 0 1 0 0 0 0 0 
+Predictions 405
+0 0 1 0 0.0634766 0.0107422 0.0390625 0.0107422 0 0 
+Processing input 406
+Labels 406
+1 0 0 0 0 0 0 0 0 0 
+Predictions 406
+1 0 0 0 0 0 0 0 0 0 
+Processing input 407
+Labels 407
+0 1 0 0 0 0 0 0 0 0 
+Predictions 407
+0 1 0 0 0 0 0 0 0 0 
+Processing input 408
+Labels 408
+0 0 0 0 0 0 0 0 1 0 
+Predictions 408
+0 0 0 0 0 0 0 0 1 0 
+Processing input 409
+Labels 409
+0 0 1 0 0 0 0 0 0 0 
+Predictions 409
+0 0 1 0 0 0 0 0 0 0 
+Processing input 410
+Labels 410
+0 0 0 0 0 0 0 1 0 0 
+Predictions 410
+0 0 0 0 0 1 0 0.00683594 0 0 
+Processing input 411
+Labels 411
+0 0 0 0 0 0 0 0 0 1 
+Predictions 411
+0 0 0 0 0 0 0 0 0 1 
+Processing input 412
+Labels 412
+0 0 0 1 0 0 0 0 0 0 
+Predictions 412
+0 0 0 0.00390625 0.000976563 0.0234375 0 1 0 0 
+Processing input 413
+Labels 413
+0 0 0 0 0 0 1 0 0 0 
+Predictions 413
+0 0 0 0 0 0 1 0 0 0 
+Processing input 414
+Labels 414
+0 1 0 0 0 0 0 0 0 0 
+Predictions 414
+0 1 0 0 0 0 0 0 0 0 
+Processing input 415
+Labels 415
+0 0 0 0 0 0 0 0 0 1 
+Predictions 415
+0 0 0 0 0 0 0 0 0 1 
+Processing input 416
+Labels 416
+1 0 0 0 0 0 0 0 0 0 
+Predictions 416
+0 0 0 1 0 0 0.000976563 0 0 0 
+Processing input 417
+Labels 417
+0 0 0 0 0 0 0 1 0 0 
+Predictions 417
+0 0.00156212 0.00156212 0.799805 0.00234318 0.378033 0 0.000781059 0 0 
+Processing input 418
+Labels 418
+0 0 0 1 0 0 0 0 0 0 
+Predictions 418
+0 0 0 1 0 0 0 0 0 0 
+Processing input 419
+Labels 419
+0 0 0 0 0 0 0 1 0 0 
+Predictions 419
+0 0 0 0 0 0 0 1 0 0 
+Processing input 420
+Labels 420
+0 0 0 0 1 0 0 0 0 0 
+Predictions 420
+0 0 0 0 1 0 0 0 0 0 
+Processing input 421
+Labels 421
+0 0 0 0 0 1 0 0 0 0 
+Predictions 421
+0 0 0 0 0 1 0 0.00195313 0 0 
+Processing input 422
+Labels 422
+1 0 0 0 0 0 0 0 0 0 
+Predictions 422
+0.0498047 0 0 0 0 0 0 0 1 0 
+Processing input 423
+Labels 423
+1 0 0 0 0 0 0 0 0 0 
+Predictions 423
+1 0 0 0 0 0 0 0 0 0 
+Processing input 424
+Labels 424
+0 0 1 0 0 0 0 0 0 0 
+Predictions 424
+0 0 1 0 0 0 0 0 0 0 
+Processing input 425
+Labels 425
+0 0 0 0 0 0 0 0 0 1 
+Predictions 425
+0 0 0 0 0 0 0 0 0 1 
+Processing input 426
+Labels 426
+0 0 0 1 0 0 0 0 0 0 
+Predictions 426
+0 0 0 1 0 0 0 0 0 0 
+Processing input 427
+Labels 427
+0 0 0 0 1 0 0 0 0 0 
+Predictions 427
+0 0 0 0 0.444646 0.571289 0 0 0 0 
+Processing input 428
+Labels 428
+1 0 0 0 0 0 0 0 0 0 
+Predictions 428
+0 0 0 0 0 0 1 0 0 0 
+Processing input 429
+Labels 429
+0 0 0 0 0 0 1 0 0 0 
+Predictions 429
+0 0 0 0.00488281 0 0 1 0 0 0 
+Processing input 430
+Labels 430
+0 0 1 0 0 0 0 0 0 0 
+Predictions 430
+0 0 0.00977039 0.666992 0.404494 0 0 0 0 0 
+Processing input 431
+Labels 431
+0 0 0 0 0 1 0 0 0 0 
+Predictions 431
+0 0 0 0.0185547 0 1 0 0 0 0 
+Processing input 432
+Labels 432
+0 0 0 1 0 0 0 0 0 0 
+Predictions 432
+0 0 0 1 0 0.0146484 0 0 0.00292969 0 
+Processing input 433
+Labels 433
+0 0 0 0 0 0 0 1 0 0 
+Predictions 433
+0 0 0 0 0.00390625 0 0 1 0 0 
+Processing input 434
+Labels 434
+0 0 0 1 0 0 0 0 0 0 
+Predictions 434
+0 0 0 0 0 0 0 0 0 1 
+Processing input 435
+Labels 435
+0 0 0 0 0 0 0 1 0 0 
+Predictions 435
+0 0 0 0 0 0 0 1 0 0 
+Processing input 436
+Labels 436
+0 0 1 0 0 0 0 0 0 0 
+Predictions 436
+0 0 1 0.135742 0.0146484 0.0302734 0.0185547 0 0 0 
+Processing input 437
+Labels 437
+0 0 0 0 0 1 0 0 0 0 
+Predictions 437
+0 0 0.00878906 0 0 1 0.222656 0 0 0 
+Processing input 438
+Labels 438
+0 0 0 1 0 0 0 0 0 0 
+Predictions 438
+0 0 0 1 0 0.0185547 0 0 0 0 
+Processing input 439
+Labels 439
+0 1 0 0 0 0 0 0 0 0 
+Predictions 439
+0 0.799805 0 0 0 0 0 0 0 0.378033 
+Processing input 440
+Labels 440
+0 1 0 0 0 0 0 0 0 0 
+Predictions 440
+0 1 0 0 0 0 0 0 0 0 
+Processing input 441
+Labels 441
+0 0 0 0 1 0 0 0 0 0 
+Predictions 441
+0 0 1 0 0.0390625 0 0 0 0 0 
+Processing input 442
+Labels 442
+0 0 0 0 0 0 0 0 0 1 
+Predictions 442
+0 0 0 0 0 0 0 0 0 1 
+Processing input 443
+Labels 443
+0 0 0 0 0 0 0 0 0 1 
+Predictions 443
+0 0 0 0 0 0 0 0 1 0.0634766 
+Processing input 444
+Labels 444
+0 0 0 0 0 1 0 0 0 0 
+Predictions 444
+0 0 0 0.294459 0 0.799805 0 0 0 0 
+Processing input 445
+Labels 445
+0 0 0 0 0 0 0 1 0 0 
+Predictions 445
+0 0 0.00195408 0 0.404494 0 0 0.666992 0 0 
+Processing input 446
+Labels 446
+0 0 0 0 0 1 0 0 0 0 
+Predictions 446
+0 0 0 0.000976563 0 1 0 0 0 0 
+Processing input 447
+Labels 447
+1 0 0 0 0 0 0 0 0 0 
+Predictions 447
+1 0 0 0 0 0 0 0 0 0 
+Processing input 448
+Labels 448
+0 0 1 0 0 0 0 0 0 0 
+Predictions 448
+0 0 1 0 0 0 0 0 0 0 
+Processing input 449
+Labels 449
+0 0 1 0 0 0 0 0 0 0 
+Predictions 449
+0 0 1 0 0 0 0 0 0 0 
+Processing input 450
+Labels 450
+0 0 1 0 0 0 0 0 0 0 
+Predictions 450
+0.00292969 1 0.0185547 0 0 0 0.135742 0 0 0 
+Processing input 451
+Labels 451
+0 0 0 0 0 0 0 0 0 1 
+Predictions 451
+0 0 0 0 0 0 0 0 0 1 
+Processing input 452
+Labels 452
+0 0 0 0 0 0 0 1 0 0 
+Predictions 452
+0 0 0 0 0 0 0 1 0 0 
+Processing input 453
+Labels 453
+0 0 0 1 0 0 0 0 0 0 
+Predictions 453
+0 0 0.00683594 0 0 1 0 0 0 0 
+Processing input 454
+Labels 454
+0 0 0 0 0 0 0 0 0 1 
+Predictions 454
+0 0 0 0 0 0 0 0 0 1 
+Processing input 455
+Labels 455
+0 0 0 0 1 0 0 0 0 0 
+Predictions 455
+0 0 0.799805 0 0.000781059 0.378033 0 0 0 0 
+Processing input 456
+Labels 456
+0 0 0 1 0 0 0 0 0 0 
+Predictions 456
+0 0 0.000976563 0.000976563 0.0634766 0 1 0 0 0 
+Processing input 457
+Labels 457
+0 0 0 0 0 1 0 0 0 0 
+Predictions 457
+0 0 0 0 1 0 0 0 0 0 
+Processing input 458
+Labels 458
+0 0 0 0 1 0 0 0 0 0 
+Predictions 458
+0 0 0 0.00292969 1 0 0 0 0 0 
+Processing input 459
+Labels 459
+0 0 0 0 0 0 1 0 0 0 
+Predictions 459
+0 0 0 1 0 0.0498047 0 0 0.000976563 0.00292969 
+Processing input 460
+Labels 460
+0 0 0 0 0 1 0 0 0 0 
+Predictions 460
+0 0 0 1 0 0.00488281 0 0.00878906 0 0 
+Processing input 461
+Labels 461
+0 0 0 0 0 0 1 0 0 0 
+Predictions 461
+0 0 0 0 0.00195313 0.00292969 1 0 0 0 
+Processing input 462
+Labels 462
+0 1 0 0 0 0 0 0 0 0 
+Predictions 462
+0 1 0 0 0 0 0 0 0 0 
+Processing input 463
+Labels 463
+0 0 0 0 1 0 0 0 0 0 
+Predictions 463
+0 0 0 0 1 0 0 0 0 0 
+Processing input 464
+Labels 464
+0 0 0 1 0 0 0 0 0 0 
+Predictions 464
+0 0 0 0.00390625 0.000976563 0.00292969 1 0 0 0 
+Processing input 465
+Labels 465
+0 0 0 0 1 0 0 0 0 0 
+Predictions 465
+0 0 0 0 1 0 0 0 0 0 
+Processing input 466
+Labels 466
+0 0 0 0 1 0 0 0 0 0 
+Predictions 466
+0 0 0 0 1 0 0 0.222656 0 0 
+Processing input 467
+Labels 467
+0 0 0 1 0 0 0 0 0 0 
+Predictions 467
+0 0 0 1 0 0 0 0 0 0 
+Processing input 468
+Labels 468
+0 0 0 0 0 0 0 1 0 0 
+Predictions 468
+0 0 0.00586224 0 0 0.666992 0 0.404494 0 0 
+Processing input 469
+Labels 469
+0 0 0 0 0 0 0 0 1 0 
+Predictions 469
+0 0 0 0 0 0 0 0 1 0 
+Processing input 470
+Labels 470
+0 0 0 1 0 0 0 0 0 0 
+Predictions 470
+0 0 0 0.135742 0 1 0 0 0 0 
+Processing input 471
+Labels 471
+0 0 0 0 0 0 0 1 0 0 
+Predictions 471
+0 0 0 0 0 0 0 1 0 0 
+Processing input 472
+Labels 472
+0 0 0 0 0 0 0 0 1 0 
+Predictions 472
+0 0 0 0 0 0 0 0 1 0 
+Processing input 473
+Labels 473
+1 0 0 0 0 0 0 0 0 0 
+Predictions 473
+1 0 0 0 0 0 0 0 0 0 
+Processing input 474
+Labels 474
+0 0 0 0 0 1 0 0 0 0 
+Predictions 474
+0 0 0 0.00488281 0 1 0 0 0 0 
+Processing input 475
+Labels 475
+0 0 0 0 0 0 0 1 0 0 
+Predictions 475
+0 0 0 0 0 0 0 1 0 0 
+Processing input 476
+Labels 476
+0 0 0 0 0 0 1 0 0 0 
+Predictions 476
+0 0 0 0 1 0 0.0390625 0 0 0 
+Processing input 477
+Labels 477
+1 0 0 0 0 0 0 0 0 0 
+Predictions 477
+0.0234375 0 0 0 0 0 0 0 0.00292969 1 
+Processing input 478
+Labels 478
+0 0 0 0 0 1 0 0 0 0 
+Predictions 478
+0 0 0.00390625 0 0 1 0.0390625 0 0 0 
+Processing input 479
+Labels 479
+0 0 0 0 1 0 0 0 0 0 
+Predictions 479
+0.0249023 0 0 0.236328 0.303223 0.5 0.0117188 0 0 0.00244141 
+Processing input 480
+Labels 480
+0 0 0 0 0 0 0 0 1 0 
+Predictions 480
+0 0 0 0 0 0 0 0 1 0.00878906 
+Processing input 481
+Labels 481
+0 0 0 0 0 0 1 0 0 0 
+Predictions 481
+0 0 0 0 0 0 1 0 0 0 
+Processing input 482
+Labels 482
+0 0 0 0 0 0 0 0 1 0 
+Predictions 482
+0 0 0 0 0 0 0 0 1 0 
+Processing input 483
+Labels 483
+0 0 0 0 0 1 0 0 0 0 
+Predictions 483
+0 0 1 0.00292969 0 0.173828 0 0 0 0 
+Processing input 484
+Labels 484
+0 0 0 0 0 1 0 0 0 0 
+Predictions 484
+0 0 0 0 0 1 0 0 0 0 
+Processing input 485
+Labels 485
+0 0 0 0 0 0 0 0 0 1 
+Predictions 485
+0 0 0 0 0 0 0 0 0 1 
+Processing input 486
+Labels 486
+0 0 0 0 0 0 0 0 0 1 
+Predictions 486
+0 0 0 0 0 0 0 0 0 1 
+Processing input 487
+Labels 487
+0 0 0 0 0 0 0 0 0 1 
+Predictions 487
+0 0 0 0 0 0 0 0 0 1 
+Processing input 488
+Labels 488
+0 0 0 0 0 1 0 0 0 0 
+Predictions 488
+0 0 0 0 1 0.00195313 0 0 0 0 
+Processing input 489
+Labels 489
+1 0 0 0 0 0 0 0 0 0 
+Predictions 489
+1 0 0.173828 0 0 0 0 0 0 0 
+Processing input 490
+Labels 490
+0 1 0 0 0 0 0 0 0 0 
+Predictions 490
+0 1 0 0 0 0 0 0 0 0 
+Processing input 491
+Labels 491
+1 0 0 0 0 0 0 0 0 0 
+Predictions 491
+1 0 0 0 0 0 0 0 0 0 
+Processing input 492
+Labels 492
+0 0 0 0 0 0 0 0 1 0 
+Predictions 492
+0 0 0.00488281 0 0 0 0 0 1 0 
+Processing input 493
+Labels 493
+0 1 0 0 0 0 0 0 0 0 
+Predictions 493
+0 1 0 0 0 0 0 0 0 0 
+Processing input 494
+Labels 494
+0 1 0 0 0 0 0 0 0 0 
+Predictions 494
+0.000976563 1 0 0 0 0 0 0 0 0 
+Processing input 495
+Labels 495
+0 0 0 0 0 0 0 0 1 0 
+Predictions 495
+0 0 0 0 0 0 0 0 1 0 
+Processing input 496
+Labels 496
+1 0 0 0 0 0 0 0 0 0 
+Predictions 496
+0.105469 0.000976563 1 0 0 0 0 0 0 0 
+Processing input 497
+Labels 497
+0 0 1 0 0 0 0 0 0 0 
+Predictions 497
+0 0 1 0 0 0 0 0 0 0 
+Processing input 498
+Labels 498
+0 0 1 0 0 0 0 0 0 0 
+Predictions 498
+0 0 1 0 0.0107422 0 0 0 0 0 
+Processing input 499
+Labels 499
+1 0 0 0 0 0 0 0 0 0 
+Predictions 499
+1 0 0 0 0 0 0 0 0 0 
+INFO: Saved inference results to file: tb_data/csim_results.log
